@@ -1,0 +1,37 @@
+spring:
+  profiles: default
+
+server:
+  port: 9080
+
+camel:
+  springboot:
+    name: ac-candidato
+
+logging:
+  file: ./logs/service.log
+  level:
+    root: info
+    br:
+      com:
+        kroton: debug
+  pattern:
+    file: "[%d{ISO8601}] [%-5level] %-40.40c{1.} : %m%ex%n"
+
+servico:
+  evento: ${camel.springboot.name}.Candidato
+  
+  ## OracleDB ZONAAZUL DEV
+  zonaazul:
+    camel:
+      key:
+        body: BODY
+    datasource:
+      driver-class-name: oracle.jdbc.OracleDriver 
+      url: jdbc:oracle:thin:@localhost:1521:xe 
+      poolInitSize: 1
+      poolMaxActive: 1
+      poolMaxIdle: 1
+      poolMinIdle: 1
+      username: zonaazul
+      password: zonaazul

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<select id="selectUsuario" resultMap="usuarioResultMap" fetchSize="100">
+	
+	<![CDATA[
+	
+	SELECT 
+		U.ID, 
+		U.EMAIL, 
+		U.SENHA, 
+		U.TIPO 
+	FROM 
+		USUARIO u 
+	WHERE 
+		UPPER(U.EMAIL) = UPPER(#{email}) 
+	AND 
+		UPPER(U.SENHA) = UPPER(#{senha})	 
+	    
+	]]>
+	
+	</select>
+	
+	<!-- Mapeamento Usuario.java to Table Usuario -->
+	<resultMap type="br.com.api.candidato.dto.Usuario" id="usuarioResultMap">
+		<id property="id" column="ID" jdbcType="NUMERIC" />
+		<result property="email" column="EMAIL" jdbcType="VARCHAR" />
+		<result property="senha" column="SENHA" jdbcType="VARCHAR" />
+		<result property="tipo" column="TIPO" jdbcType="VARCHAR" />
+	</resultMap>
+	
+</mapper>
+
