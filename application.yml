@@ -19,7 +19,7 @@ logging:
     file: "[%d{ISO8601}] [%-5level] %-40.40c{1.} : %m%ex%n"
 
 servico:
-  evento: ${camel.springboot.name}.Candidato
+  evento: ${camel.springboot.name}.ZonaAzul
   
   ## OracleDB ZONAAZUL DEV
   zonaazul:
