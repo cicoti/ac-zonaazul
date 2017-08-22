@@ -15,10 +15,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @JsonIgnoreProperties ( ignoreUnknown = true )
 public class Usuario implements Serializable { 
-	
-	private static final long serialVersionUID = 1L;
 
-	private long id;
+	private static final long serialVersionUID = -3164863848203812524L;
+	
+	private Long id;
 	private String email;
 	private String senha;
 	private String tipo;

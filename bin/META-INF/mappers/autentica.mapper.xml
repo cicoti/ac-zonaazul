@@ -8,17 +8,17 @@
 	
 	<![CDATA[
 	
-	SELECT 
-		U.ID, 
-		U.EMAIL, 
-		U.SENHA, 
-		U.TIPO 
-	FROM 
-		USUARIO u 
+	SELECT
+    	u.id_usuario,
+    	u.email,
+    	u.senha,
+    	u.tipo
+	FROM
+    usuario u
 	WHERE 
-		UPPER(U.EMAIL) = UPPER(#{email}) 
+		UPPER(u.email) = UPPER(#{email}) 
 	AND 
-		UPPER(U.SENHA) = UPPER(#{senha})	 
+		UPPER(u.senha) = UPPER(#{senha})	 
 	    
 	]]>
 	
@@ -26,7 +26,7 @@
 	
 	<!-- Mapeamento Usuario.java to Table Usuario -->
 	<resultMap type="br.com.api.candidato.dto.Usuario" id="usuarioResultMap">
-		<id property="id" column="ID" jdbcType="NUMERIC" />
+		<id property="id" column="ID_USUARIO" jdbcType="NUMERIC" />
 		<result property="email" column="EMAIL" jdbcType="VARCHAR" />
 		<result property="senha" column="SENHA" jdbcType="VARCHAR" />
 		<result property="tipo" column="TIPO" jdbcType="VARCHAR" />

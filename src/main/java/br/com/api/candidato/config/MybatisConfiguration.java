@@ -47,8 +47,10 @@ public class MybatisConfiguration {
 		TransactionFactory transactionFactory = new JdbcTransactionFactory();
 		factory.setTransactionFactory(transactionFactory);
 		factory.setDataSource(dataSource);
-		Resource[] locations = {new ClassPathResource("/META-INF/mappers/autentica.mapper.xml")} ;
-		factory.setMapperLocations( locations  );
+		Resource[] locations = {new ClassPathResource("/META-INF/mappers/autentica.mapper.xml"),
+								new ClassPathResource("/META-INF/mappers/compra.mapper.xml")
+		} ;
+		factory.setMapperLocations(locations);
 		return factory;
 	}
 
