@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<select id="selectSaldoCompraPorUsuario" resultMap="saldoCompraPorUsuarioResultMap" fetchSize="1">
+	
+	<![CDATA[
+	
+	SELECT
+    	SUM(c.qt_credito) as QT_CREDITO
+	FROM
+    	compra c,
+    	credito cr
+	WHERE
+        c.id_credito = cr.id_credito
+    AND
+        c.id_usuario = #{id}
+	    
+	]]>
+	
+	</select>
+	
+	<!-- Mapeamento Usuario.java to Table Compra -->
+	<resultMap type="br.com.api.candidato.dto.Compra" id="saldoCompraPorUsuarioResultMap">
+		<result property="qtCredito" column="QT_CREDITO" jdbcType="NUMERIC" />
+	</resultMap>
+	
+</mapper>
+
