@@ -4376,3 +4376,625 @@ Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibati
 [2017-08-22 17:30:07,663] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 2 minutes
 [2017-08-22 17:30:07,663] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.029 seconds
 [2017-08-22 17:30:07,665] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-22 20:18:56,163] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 15128 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 20:18:56,172] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 20:18:56,360] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 20:18:56 BRT 2017]; root of context hierarchy
+[2017-08-22 20:18:58,471] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4dbe369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 20:18:58,540] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d705a988] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 20:18:59,105] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 20:18:59,131] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 20:18:59,209] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 20:18:59,212] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 20:18:59,242] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 20:18:59,243] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2887 ms
+[2017-08-22 20:18:59,431] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 20:18:59,434] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 20:18:59,437] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 20:18:59,439] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 20:18:59,441] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 20:18:59,442] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 20:19:00,689] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 20:18:56 BRT 2017]; root of context hierarchy
+[2017-08-22 20:19:00,784] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 20:19:00,785] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 20:19:00,835] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 20:19:00,836] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 20:19:00,923] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 20:19:01,076] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 20:19:01,755] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 20:19:01,816] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 20:19:01,816] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 20:19:01,817] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 20:19:01,818] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 20:19:01,933] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 20:19:02,253] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 20:19:02,423] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 20:19:02,426] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 20:19:02,427] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 20:19:02,428] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 20:19:02,431] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 20:19:02,435] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 20:19:02,436] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 20:19:02,437] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.619 seconds
+[2017-08-22 20:19:02,491] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 20:19:02,498] [INFO ] br.com.api.candidato.Application         : Started Application in 6.903 seconds (JVM running for 7.643)
+[2017-08-22 20:44:20,146] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-22 20:44:20,147] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 20:18:56 BRT 2017]; root of context hierarchy
+[2017-08-22 20:44:20,158] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-22 20:44:20,213] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-22 20:44:20,214] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-22 20:44:20,240] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 20:44:20,241] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-22 20:44:20,241] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 20:44:20,241] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-22 20:44:20,241] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 20:44:20,242] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-22 20:44:20,242] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 6 routes completed in 0 seconds
+[2017-08-22 20:44:20,392] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 25 minutes
+[2017-08-22 20:44:20,392] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.179 seconds
+[2017-08-22 21:09:40,852] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 460 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 21:09:40,862] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 21:09:41,041] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:09:41 BRT 2017]; root of context hierarchy
+[2017-08-22 21:09:42,671] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d2f5bec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:09:42,714] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$4f59220b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:09:43,785] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 21:09:43,818] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 21:09:43,897] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 21:09:43,898] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 21:09:43,985] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 21:09:43,987] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2975 ms
+[2017-08-22 21:09:44,240] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 21:09:44,243] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 21:09:44,252] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 21:09:44,256] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 21:09:44,258] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 21:09:44,259] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 21:09:45,570] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:09:41 BRT 2017]; root of context hierarchy
+[2017-08-22 21:09:45,666] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 21:09:45,668] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 21:09:45,737] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:09:45,744] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:09:45,817] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:09:45,967] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 21:09:46,969] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 21:09:47,033] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 21:09:47,033] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 21:09:47,034] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 21:09:47,035] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 21:09:47,140] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 21:09:47,312] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 21:09:47,432] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 21:09:47,435] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:09:47,436] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 21:09:47,437] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:09:47,439] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 21:09:47,440] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:09:47,440] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 21:09:47,441] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.407 seconds
+[2017-08-22 21:09:47,488] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 21:09:47,498] [INFO ] br.com.api.candidato.Application         : Started Application in 8.203 seconds (JVM running for 10.194)
+[2017-08-22 21:10:22,232] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-22 21:10:22,315] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:10:22,333] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-22 21:10:23,006] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:10:32,578] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:10:47,397] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:12:58,883] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-22 21:12:58,884] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:09:41 BRT 2017]; root of context hierarchy
+[2017-08-22 21:12:58,886] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-22 21:12:58,891] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-22 21:12:58,893] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-22 21:12:58,899] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:12:58,900] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-22 21:12:58,900] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:12:58,900] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-22 21:12:58,901] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:12:58,901] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-22 21:12:58,902] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 6 routes completed in 0 seconds
+[2017-08-22 21:12:58,936] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 3 minutes
+[2017-08-22 21:12:58,937] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.044 seconds
+[2017-08-22 21:12:58,938] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-22 21:42:39,872] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 1700 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 21:42:39,884] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 21:42:40,091] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:42:40 BRT 2017]; root of context hierarchy
+[2017-08-22 21:42:42,083] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6ccb3c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:42:42,180] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d8f679e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:42:42,808] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 21:42:42,838] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 21:42:42,909] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 21:42:42,909] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 21:42:42,933] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 21:42:42,934] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2850 ms
+[2017-08-22 21:42:43,165] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 21:42:43,169] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 21:42:43,172] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 21:42:43,173] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 21:42:43,174] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 21:42:43,174] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 21:42:44,902] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:42:40 BRT 2017]; root of context hierarchy
+[2017-08-22 21:42:44,989] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 21:42:44,989] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 21:42:45,046] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:42:45,046] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:42:45,110] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:42:45,254] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 21:42:46,155] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 21:42:46,242] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 21:42:46,243] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 21:42:46,244] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 21:42:46,245] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 21:42:46,347] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 21:42:46,561] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 21:42:46,760] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 21:42:46,762] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:42:46,763] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 21:42:46,764] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:42:46,772] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 21:42:46,776] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:42:46,777] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 21:42:46,778] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.533 seconds
+[2017-08-22 21:42:46,837] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 21:42:46,845] [INFO ] br.com.api.candidato.Application         : Started Application in 7.674 seconds (JVM running for 8.521)
+[2017-08-22 21:43:39,161] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-22 21:43:39,201] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{}
+[2017-08-22 21:43:39,237] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-22 21:43:59,915] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{id=1}}
+[2017-08-22 21:44:13,571] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{id=1}}
+[2017-08-22 21:44:41,078] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-22 21:44:41,079] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:42:40 BRT 2017]; root of context hierarchy
+[2017-08-22 21:44:41,081] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-22 21:44:41,086] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-22 21:44:41,087] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-22 21:44:41,093] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:44:41,093] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-22 21:44:41,094] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:44:41,095] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-22 21:44:41,095] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:44:41,096] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-22 21:44:41,101] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 6 routes completed in 0 seconds
+[2017-08-22 21:44:41,126] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 1 minute
+[2017-08-22 21:44:41,126] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.040 seconds
+[2017-08-22 21:44:41,128] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-22 21:44:48,698] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 8380 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 21:44:48,704] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 21:44:48,811] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:44:48 BRT 2017]; root of context hierarchy
+[2017-08-22 21:44:50,317] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d2f5bec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:44:50,392] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$4f59220b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:44:50,947] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 21:44:50,984] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 21:44:51,069] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 21:44:51,070] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 21:44:51,101] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 21:44:51,102] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2295 ms
+[2017-08-22 21:44:51,382] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 21:44:51,385] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 21:44:51,389] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 21:44:51,390] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 21:44:51,390] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 21:44:51,391] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 21:44:52,669] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:44:48 BRT 2017]; root of context hierarchy
+[2017-08-22 21:44:52,778] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 21:44:52,794] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 21:44:52,851] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:44:52,851] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:44:52,920] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:44:53,091] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 21:44:53,823] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 21:44:53,896] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 21:44:53,897] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 21:44:53,901] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 21:44:53,903] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 21:44:54,163] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 21:44:54,398] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 21:44:54,534] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 21:44:54,536] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:44:54,542] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 21:44:54,544] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:44:54,545] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 21:44:54,546] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:44:54,548] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 21:44:54,550] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.647 seconds
+[2017-08-22 21:44:54,607] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 21:44:54,613] [INFO ] br.com.api.candidato.Application         : Started Application in 6.494 seconds (JVM running for 7.264)
+[2017-08-22 21:46:01,270] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-22 21:46:01,370] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{id=1}}
+[2017-08-22 21:46:01,399] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-22 21:46:01,839] [ERROR] ache.camel.processor.DefaultErrorHandler : Failed delivery for (MessageId: ID-DESKTOP-ES86K9P-56111-1503449091869-0-3 on ExchangeId: ID-DESKTOP-ES86K9P-56111-1503449091869-0-2). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route3            ] [route3            ] [servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST                      ] [       536]
+[route3            ] [restBinding3      ] [                                                                              ] [        62]
+[route3            ] [route3            ] [direct:saldoVenda                                                             ] [       465]
+[route6            ] [log3              ] [log                                                                           ] [         2]
+[route6            ] [doTry3            ] [doTry                                                                         ] [       463]
+[route6            ] [to3               ] [zonaAzulDB:selectSaldoVendaPorUsuario?StatementType=SelectOne                 ] [       455]
+[route6            ] [process5          ] [Processor@0x572b6036                                                          ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:74)
+	at org.apache.camel.impl.MessageSupport.getBody(MessageSupport.java:47)
+	at org.apache.camel.impl.MessageSupport.copyFrom(MessageSupport.java:139)
+	at org.apache.camel.util.ExchangeHelper.copyResults(ExchangeHelper.java:311)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:107)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:113)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:84)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:195)
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:74)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:285)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:264)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:175)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:207)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:802)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: UT010029: Stream is closed
+	at io.undertow.servlet.spec.ServletInputStreamImpl.available(ServletInputStreamImpl.java:226)
+	at org.apache.camel.http.common.HttpConverter.toInputStream(HttpConverter.java:86)
+	at org.apache.camel.http.common.HttpHelper.readRequestBodyFromServletRequest(HttpHelper.java:194)
+	at org.apache.camel.http.common.DefaultHttpBinding.parseBody(DefaultHttpBinding.java:572)
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:72)
+	... 63 common frames omitted
+
+[2017-08-22 21:46:11,180] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{id=1}}
+[2017-08-22 21:46:11,189] [ERROR] ache.camel.processor.DefaultErrorHandler : Failed delivery for (MessageId: ID-DESKTOP-ES86K9P-56111-1503449091869-0-6 on ExchangeId: ID-DESKTOP-ES86K9P-56111-1503449091869-0-5). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route3            ] [route3            ] [servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST                      ] [        11]
+[route3            ] [restBinding3      ] [                                                                              ] [         1]
+[route3            ] [route3            ] [direct:saldoVenda                                                             ] [         7]
+[route6            ] [log3              ] [log                                                                           ] [         1]
+[route6            ] [doTry3            ] [doTry                                                                         ] [         6]
+[route6            ] [to3               ] [zonaAzulDB:selectSaldoVendaPorUsuario?StatementType=SelectOne                 ] [         5]
+[route6            ] [process5          ] [Processor@0x572b6036                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:74)
+	at org.apache.camel.impl.MessageSupport.getBody(MessageSupport.java:47)
+	at org.apache.camel.impl.MessageSupport.copyFrom(MessageSupport.java:139)
+	at org.apache.camel.util.ExchangeHelper.copyResults(ExchangeHelper.java:311)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:107)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:113)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:84)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:195)
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:74)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:285)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:264)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:175)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:207)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:802)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: UT010029: Stream is closed
+	at io.undertow.servlet.spec.ServletInputStreamImpl.available(ServletInputStreamImpl.java:226)
+	at org.apache.camel.http.common.HttpConverter.toInputStream(HttpConverter.java:86)
+	at org.apache.camel.http.common.HttpHelper.readRequestBodyFromServletRequest(HttpHelper.java:194)
+	at org.apache.camel.http.common.DefaultHttpBinding.parseBody(DefaultHttpBinding.java:572)
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:72)
+	... 63 common frames omitted
+
+[2017-08-22 21:46:14,290] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-22 21:46:14,291] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:44:48 BRT 2017]; root of context hierarchy
+[2017-08-22 21:46:14,294] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-22 21:46:14,306] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-22 21:46:14,307] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-22 21:46:14,312] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route6 = 2]
+[2017-08-22 21:46:15,314] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route6 = 2]
+[2017-08-22 21:46:22,981] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 5876 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 21:46:22,988] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 21:46:23,070] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:46:23 BRT 2017]; root of context hierarchy
+[2017-08-22 21:46:25,314] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4dbe369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:46:25,403] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d705a988] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:46:25,989] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 21:46:26,010] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 21:46:26,071] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 21:46:26,072] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 21:46:26,088] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 21:46:26,089] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3024 ms
+[2017-08-22 21:46:26,297] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 21:46:26,300] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 21:46:26,304] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 21:46:26,305] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 21:46:26,305] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 21:46:26,305] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 21:46:27,685] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:46:23 BRT 2017]; root of context hierarchy
+[2017-08-22 21:46:27,757] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 21:46:27,758] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 21:46:27,799] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:46:27,802] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:46:27,853] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:46:27,974] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 21:46:28,922] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 21:46:29,008] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 21:46:29,009] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 21:46:29,010] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 21:46:29,013] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 21:46:29,144] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 21:46:29,371] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 21:46:29,496] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 21:46:29,499] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:46:29,500] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 21:46:29,501] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:46:29,503] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 21:46:29,504] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:46:29,505] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 21:46:29,506] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.495 seconds
+[2017-08-22 21:46:29,547] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 21:46:29,553] [INFO ] br.com.api.candidato.Application         : Started Application in 7.108 seconds (JVM running for 7.976)
+[2017-08-22 21:46:36,502] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-22 21:46:36,622] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{id=1}}
+[2017-08-22 21:46:36,642] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-22 21:46:37,051] [ERROR] ache.camel.processor.DefaultErrorHandler : Failed delivery for (MessageId: ID-DESKTOP-ES86K9P-56159-1503449186822-0-3 on ExchangeId: ID-DESKTOP-ES86K9P-56159-1503449186822-0-2). Exhausted after delivery attempt: 1 caught: org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route3            ] [route3            ] [servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST                      ] [       512]
+[route3            ] [restBinding3      ] [                                                                              ] [        81]
+[route3            ] [route3            ] [direct:saldoVenda                                                             ] [       426]
+[route6            ] [log3              ] [log                                                                           ] [         2]
+[route6            ] [doTry3            ] [doTry                                                                         ] [       424]
+[route6            ] [to3               ] [zonaAzulDB:selectSaldoVendaPorUsuario?StatementType=SelectOne                 ] [       417]
+[route6            ] [process5          ] [Processor@0x13977598                                                          ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------org.apache.camel.RuntimeCamelException: java.io.IOException: UT010029: Stream is closed
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:74)
+	at org.apache.camel.impl.MessageSupport.getBody(MessageSupport.java:47)
+	at org.apache.camel.impl.MessageSupport.copyFrom(MessageSupport.java:139)
+	at org.apache.camel.util.ExchangeHelper.copyResults(ExchangeHelper.java:311)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:107)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:113)
+	at org.apache.camel.processor.TryProcessor.process(TryProcessor.java:84)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:195)
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:74)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:285)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:264)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:175)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:207)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:802)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: UT010029: Stream is closed
+	at io.undertow.servlet.spec.ServletInputStreamImpl.available(ServletInputStreamImpl.java:226)
+	at org.apache.camel.http.common.HttpConverter.toInputStream(HttpConverter.java:86)
+	at org.apache.camel.http.common.HttpHelper.readRequestBodyFromServletRequest(HttpHelper.java:194)
+	at org.apache.camel.http.common.DefaultHttpBinding.parseBody(DefaultHttpBinding.java:572)
+	at org.apache.camel.http.common.HttpMessage.createBody(HttpMessage.java:72)
+	... 63 common frames omitted
+
+[2017-08-22 21:47:14,686] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{id=1}}
+[2017-08-22 21:50:13,890] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-22 21:50:13,891] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:46:23 BRT 2017]; root of context hierarchy
+[2017-08-22 21:50:13,893] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-22 21:50:13,899] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-22 21:50:13,900] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-22 21:50:13,907] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route6 = 1]
+[2017-08-22 21:50:14,907] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route6 = 1]
+[2017-08-22 21:50:15,909] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route6 = 1]
+[2017-08-22 21:50:16,911] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route6 = 1]
+[2017-08-22 21:50:17,913] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route6 = 1]
+[2017-08-22 21:50:27,487] [INFO ] br.com.api.candidato.Application         : Starting Application on DESKTOP-ES86K9P with PID 12684 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-22 21:50:27,493] [INFO ] br.com.api.candidato.Application         : No active profile set, falling back to default profiles: default
+[2017-08-22 21:50:27,618] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:50:27 BRT 2017]; root of context hierarchy
+[2017-08-22 21:50:29,243] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d2f5bec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:50:29,315] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$4f59220b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-22 21:50:29,849] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-22 21:50:29,873] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-22 21:50:29,934] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-22 21:50:29,935] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-22 21:50:29,958] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-22 21:50:29,959] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2344 ms
+[2017-08-22 21:50:30,151] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-22 21:50:30,155] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-22 21:50:30,161] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-22 21:50:30,162] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-22 21:50:30,162] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-22 21:50:30,163] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-22 21:50:31,382] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:50:27 BRT 2017]; root of context hierarchy
+[2017-08-22 21:50:31,497] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-22 21:50:31,499] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-22 21:50:31,556] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:50:31,557] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:50:31,622] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-22 21:50:31,811] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-22 21:50:32,485] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-22 21:50:32,549] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-22 21:50:32,550] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-22 21:50:32,550] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-22 21:50:32,552] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-22 21:50:32,645] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-22 21:50:32,821] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-22 21:50:32,942] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: direct://pesquisarUsuario
+[2017-08-22 21:50:32,944] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-22 21:50:32,946] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: direct://saldoCompra
+[2017-08-22 21:50:32,947] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-22 21:50:32,948] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: direct://saldoVenda
+[2017-08-22 21:50:32,950] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-22 21:50:32,951] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 6 routes, of which 6 are started.
+[2017-08-22 21:50:32,952] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.401 seconds
+[2017-08-22 21:50:32,999] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-22 21:50:33,006] [INFO ] br.com.api.candidato.Application         : Started Application in 6.058 seconds (JVM running for 6.825)
+[2017-08-22 21:51:38,938] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-22 21:51:39,014] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{id=1}}
+[2017-08-22 21:51:39,038] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-22 21:51:43,014] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{id=1}}
+[2017-08-22 21:55:15,646] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:55:15,873] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:55:15,984] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 21:58:42,155] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:00:50,092] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:00:50,234] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:00:50,365] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:05:11,297] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:05:11,513] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:05:11,653] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:07:55,465] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:07:55,703] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 22:07:55,835] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 23:47:07,241] [INFO ] route4                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-22 23:47:07,369] [INFO ] route5                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-22 23:47:07,446] [INFO ] route6                                   : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-23 09:02:32,748] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-23 09:02:32,748] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 22 21:50:27 BRT 2017]; root of context hierarchy
+[2017-08-23 09:02:32,752] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-23 09:02:32,764] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-23 09:02:32,765] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[2017-08-23 09:02:32,773] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-23 09:02:32,774] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-23 09:02:32,775] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-23 09:02:32,775] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-23 09:02:32,775] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-23 09:02:32,775] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-23 09:02:32,776] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 6 routes completed in 0 seconds
+[2017-08-23 09:02:32,809] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 11 hours 12 minutes
+[2017-08-23 09:02:32,809] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.045 seconds
+[2017-08-23 09:02:32,811] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]

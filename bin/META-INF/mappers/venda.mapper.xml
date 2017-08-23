@@ -9,7 +9,7 @@
 	<![CDATA[
 	
 	SELECT
-    	SUM(c.qt_credito) as QT_CREDITO
+    	SUM(v.qt_credito) as QT_CREDITO
 	FROM
     	venda v,
     	credito cr
