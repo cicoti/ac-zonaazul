@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<select id="selectVagaLivre" resultMap="vagaResultMap" fetchSize="100">
+	
+	<![CDATA[
+	
+		SELECT 
+			V.*
+		FROM 
+			VAGA V
+		LEFT JOIN 
+			SOLICITA S
+		ON 
+			V.ID_VAGA = S.ID_VAGA
+		WHERE 
+			S.ID_VAGA IS NULL
+	    
+	]]>
+	
+	</select>
+	
+	<select id="selectVaga" resultMap="vagaResultMap" fetchSize="100">
+	
+	<![CDATA[
+	
+		SELECT 
+			V.*
+		FROM 
+			VAGA V
+	    
+	]]>
+	
+	</select>
+	
+	
+	<!-- Mapeamento Vaga.java to Table Vaga -->
+	<resultMap type="br.com.api.zonaazul.dto.Vaga" id="vagaResultMap">
+	
+		<result property="id" column="ID_VAGA" jdbcType="NUMERIC" />
+		<result property="noZona" column="NO_ZONA"  jdbcType="VARCHAR" />
+		<result property="noVaga" column="NO_VAGA"  jdbcType="VARCHAR" />
+		<result property="nrLongitude" column="NR_LONGITUDE"  jdbcType="NUMERIC" />
+		<result property="nrLatitude" column="NR_LATITUDE"  jdbcType="NUMERIC" />
+	
+	</resultMap>
+	
+</mapper>
+

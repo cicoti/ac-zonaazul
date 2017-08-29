@@ -1,4 +1,4 @@
-package br.com.api.candidato.dto;
+package br.com.api.zonaazul.dto;
 
 import java.io.Serializable;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -5,13 +5,12 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
 import org.springframework.stereotype.Component;
 
-import br.com.api.zonaazul.dto.Compra;
+import br.com.api.zonaazul.dto.Placa;
 import br.com.api.zonaazul.dto.RespostaErro;
 import br.com.api.zonaazul.dto.Usuario;
-import br.com.api.zonaazul.dto.Venda;
 
 @Component
-public class VendaRouterBuilder extends RouteBuilder  { 
+public class PlacaRouterBuilder extends RouteBuilder  { 
 	
 	
 	@Override
@@ -24,42 +23,42 @@ public class VendaRouterBuilder extends RouteBuilder  {
         
         rest("/zonaazul").consumes("application/json")
 							.produces("application/json")
-							.post("/v1/venda/saldo")
-							.outType(Venda.class)
-								.to("direct:saldoVenda");
+							.post("v1/placa/usuario")
+							.outType(Placa.class)
+								.to("direct:pesquisarPlacaUsuario");
         
-        from("direct:saldoVenda")
+        from("direct:pesquisarPlacaUsuario")
         
-          .log("Pesquisar saldo de venda do usuario." + body())
+          .log("Verifica se a placa está vinculada ao usuario." + body())
           
 	        .doTry()
-	        .to("zonaAzulDB:selectSaldoVendaPorUsuario?StatementType=SelectOne")
+	        .to("zonaAzulDB:selectPlacaUsuario?StatementType=SelectOne")
 	        .process(exchange -> {
-	        	Venda venda  = null;
+	        	Placa placa  = null;
 	        	try{
 	        		
-	        		venda = exchange.getIn().getBody(Venda.class);
-	        		exchange.getIn().setBody(venda);
-	      	        		        		
+	        		placa = exchange.getIn().getBody(Placa.class);
+	        		exchange.getIn().setBody(placa);
+	        		
 	        	}catch (Exception e) {
-	 		        
-	        		 RespostaErro respostaErro = new RespostaErro("VendaRouterBuilder:saldoVenda"
-								, "EN-VEN-001"
-								, "O saldo para venda não está disponivel."
+
+	        		 RespostaErro respostaErro = new RespostaErro("PlacaRouterBuilder:pesquisarPlacaUsuario"
+								, "EN-PLA-001"
+								, "Placa não vinculada a esse usuario."
 								, e.getMessage());
 	                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 400);
 	                 exchange.getOut().setHeader(Exchange.CONTENT_TYPE, "application/json");
 	                 exchange.getOut().setBody(respostaErro.toJson());
 	        		 
 				}
-		        
 		      })	        
 	        .doCatch(Exception.class)
 	            .process(exchange -> {
 	            Throwable throwable = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Throwable.class);
-                RespostaErro respostaErro = new RespostaErro("CompraRouterBuilder:saldoCompra"
-														, "ER-VEN-001"
-														, "Erro ao pesquisar dados de venda do usuario."
+	            
+                RespostaErro respostaErro = new RespostaErro("PlacaRouterBuilder:pesquisarPlacaUsuario"
+														, "ER-PLA-001"
+														, "Erro ao pesquisar a placa."
 														, throwable.getMessage());
                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 500);
                 exchange.getOut().setHeader(Exchange.CONTENT_TYPE, "application/json");
@@ -67,6 +66,8 @@ public class VendaRouterBuilder extends RouteBuilder  {
               })
 		    .end()
         .end();
+         
 	}
+		
 }
 

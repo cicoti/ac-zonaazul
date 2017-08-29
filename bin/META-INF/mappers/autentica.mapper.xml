@@ -25,7 +25,7 @@
 	</select>
 	
 	<!-- Mapeamento Usuario.java to Table Usuario -->
-	<resultMap type="br.com.api.candidato.dto.Usuario" id="usuarioResultMap">
+	<resultMap type="br.com.api.zonaazul.dto.Usuario" id="usuarioResultMap">
 		<id property="id" column="ID_USUARIO" jdbcType="NUMERIC" />
 		<result property="email" column="EMAIL" jdbcType="VARCHAR" />
 		<result property="senha" column="SENHA" jdbcType="VARCHAR" />

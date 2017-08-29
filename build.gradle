@@ -29,7 +29,7 @@ sonarqube {
 }
 
 jar {
-    baseName = 'br.com.api.candidato'
+    baseName = 'br.com.api.zonaazul'
     version = '0.0.1-SNAPSHOT'
 }
 

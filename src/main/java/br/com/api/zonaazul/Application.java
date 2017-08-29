@@ -1,4 +1,4 @@
-package br.com.api.candidato;
+package br.com.api.zonaazul;
 
 import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-import br.com.api.candidato.config.ServletConfiguration;
+import br.com.api.zonaazul.config.ServletConfiguration;
 
 @Configuration
 @SpringBootApplication

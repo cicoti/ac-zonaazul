@@ -1,12 +1,12 @@
-package br.com.api.candidato.route;
+package br.com.api.zonaazul.route;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
 import org.springframework.stereotype.Component;
 
-import br.com.api.candidato.dto.RespostaErro;
-import br.com.api.candidato.dto.Usuario;
+import br.com.api.zonaazul.dto.RespostaErro;
+import br.com.api.zonaazul.dto.Usuario;
 
 @Component
 public class AutenticaRouterBuilder extends RouteBuilder  { 
@@ -42,7 +42,7 @@ public class AutenticaRouterBuilder extends RouteBuilder  {
 	        	}catch (Exception e) {
 	 		        
 	        		 RespostaErro respostaErro = new RespostaErro("AutenticaRouterBuilder:pesquisarUsuario"
-								, "EBZA-001"
+								, "EN-AUT-001"
 								, "E-mail ou senha não encontrado."
 								, e.getMessage());
 	                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 400);
@@ -56,7 +56,7 @@ public class AutenticaRouterBuilder extends RouteBuilder  {
 	            .process(exchange -> {
 	            Throwable throwable = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Throwable.class);
                 RespostaErro respostaErro = new RespostaErro("AutenticaRouterBuilder:pesquisarUsuario"
-														, "ERZA-001"
+														, "ER-AUT-001"
 														, "Erro ao pesquisar dados do usuario para autenticar acesso."
 														, throwable.getMessage());
                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 500);

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<select id="selectPlacaUsuario" resultMap="placaResultMap" fetchSize="1">
+	
+	<![CDATA[
+	
+		SELECT
+			 P.* 
+		FROM 
+			PLACA P
+		WHERE 
+			P.ID_USUARIO = #{idUsuario}
+		AND
+			P.NR_PLACA = #{nrPlaca}
+	    
+	]]>
+	
+	</select>
+		
+	<!-- Mapeamento Placa.java to Table Placa -->
+	<resultMap type="br.com.api.zonaazul.dto.Placa" id="placaResultMap">
+	
+		<result property="id" column="ID_PLACA" jdbcType="NUMERIC" />
+		<result property="idUsuario" column="ID_USUARIO"  jdbcType="NUMERIC" />
+		<result property="nrPlaca" column="NR_PLACA"  jdbcType="VARCHAR" />
+		<result property="dtCadastro" column="DT_CADASTRO"  jdbcType="TIME" />
+		
+	</resultMap>
+	
+</mapper>
+

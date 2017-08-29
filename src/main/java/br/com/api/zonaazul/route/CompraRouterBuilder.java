@@ -1,13 +1,13 @@
-package br.com.api.candidato.route;
+package br.com.api.zonaazul.route;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
 import org.springframework.stereotype.Component;
 
-import br.com.api.candidato.dto.Compra;
-import br.com.api.candidato.dto.RespostaErro;
-import br.com.api.candidato.dto.Usuario;
+import br.com.api.zonaazul.dto.Compra;
+import br.com.api.zonaazul.dto.RespostaErro;
+import br.com.api.zonaazul.dto.Usuario;
 
 @Component
 public class CompraRouterBuilder extends RouteBuilder  { 
@@ -43,7 +43,7 @@ public class CompraRouterBuilder extends RouteBuilder  {
 	        	}catch (Exception e) {
 	 		        
 	        		 RespostaErro respostaErro = new RespostaErro("CompraRouterBuilder:saldoCompra"
-								, "EBZA-002"
+								, "EN-COM-001"
 								, "Saldo não está disponivel."
 								, e.getMessage());
 	                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 400);
@@ -57,7 +57,7 @@ public class CompraRouterBuilder extends RouteBuilder  {
 	            .process(exchange -> {
 	            Throwable throwable = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Throwable.class);
                 RespostaErro respostaErro = new RespostaErro("CompraRouterBuilder:saldoCompra"
-														, "ERZA-002"
+														, "ER-COM-001"
 														, "Erro ao pesquisar dados de compra do usuario."
 														, throwable.getMessage());
                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 500);

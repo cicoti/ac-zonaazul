@@ -23,7 +23,7 @@
 	</select>
 	
 	<!-- Mapeamento Usuario.java to Table Compra -->
-	<resultMap type="br.com.api.candidato.dto.Venda" id="saldoVendaPorUsuarioResultMap">
+	<resultMap type="br.com.api.zonaazul.dto.Venda" id="saldoVendaPorUsuarioResultMap">
 		<result property="qtCredito" column="QT_CREDITO" jdbcType="NUMERIC" />
 	</resultMap>
 	

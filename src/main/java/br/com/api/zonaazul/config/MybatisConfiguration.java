@@ -1,4 +1,4 @@
-package br.com.api.candidato.config;
+package br.com.api.zonaazul.config;
 
 
 import java.sql.SQLException;
@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
-import br.com.api.candidato.config.utils.DataSourcePropertiesConfig;
+import br.com.api.zonaazul.config.utils.DataSourcePropertiesConfig;
 
 @Configuration
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class, MybatisAutoConfiguration.class})
@@ -49,7 +49,9 @@ public class MybatisConfiguration {
 		factory.setDataSource(dataSource);
 		Resource[] locations = {new ClassPathResource("/META-INF/mappers/autentica.mapper.xml"),
 								new ClassPathResource("/META-INF/mappers/compra.mapper.xml"),
-								new ClassPathResource("/META-INF/mappers/venda.mapper.xml")
+								new ClassPathResource("/META-INF/mappers/venda.mapper.xml"),
+								new ClassPathResource("/META-INF/mappers/vaga.mapper.xml"),
+								new ClassPathResource("/META-INF/mappers/placa.mapper.xml")
 		} ;
 		factory.setMapperLocations(locations);
 		return factory;

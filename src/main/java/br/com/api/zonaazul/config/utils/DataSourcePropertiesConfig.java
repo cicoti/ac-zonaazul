@@ -1,4 +1,4 @@
-package br.com.api.candidato.config.utils;
+package br.com.api.zonaazul.config.utils;
 
 /*
  * Propriedades de configuração do Datasource.
