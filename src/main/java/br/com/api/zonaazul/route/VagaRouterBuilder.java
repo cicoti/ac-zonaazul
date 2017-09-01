@@ -36,7 +36,6 @@ public class VagaRouterBuilder extends RouteBuilder  {
 							.outType(Venda.class)
 								.to("direct:vaga");
         
-        
         from("direct:vagaLivre")
         
           .log("Pesquisa vagas livres nesse momento." + body())

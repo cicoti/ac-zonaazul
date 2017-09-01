@@ -9552,3 +9552,1159 @@ Identify and stop the process that's listening on port 9080 or configure this ap
 [2017-08-29 11:46:00,881] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
 [2017-08-29 11:46:00,959] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
 [2017-08-29 11:46:02,617] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:09:02,639] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:09:02,867] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:09:02,958] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:10:17,579] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:11:21,860] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:13:29,732] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:14:29,903] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:14:30,113] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:14:30,197] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:14:39,369] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:14:39,405] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-29 15:14:39,445] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-29 15:14:41,784] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:15:52,433] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:15:52,608] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:15:52,719] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:16:05,420] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:16:05,456] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-29 15:16:05,496] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-29 15:16:07,375] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:17:23,505] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:17:23,658] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:17:23,738] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:19:38,271] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:19:38,396] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:19:38,475] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:26:05,792] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:26:05,937] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:26:06,020] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:35:30,325] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:35:30,476] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:35:30,555] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:07,552] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:07,689] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:07,766] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:44,705] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:44,829] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:36:44,894] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:39:01,480] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:39:01,629] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:39:01,720] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:39:09,714] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:39:15,800] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:40:02,034] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:40:02,159] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:40:02,214] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:40:06,835] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 15:40:54,681] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:40:54,820] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:40:54,906] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:41:59,167] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:41:59,281] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 15:41:59,383] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:38:27,839] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:38:28,019] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:38:28,108] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:39:59,749] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:44:25,155] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:44:25,269] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:44:25,363] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:44:40,329] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:44:43,732] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:46:41,986] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:46:58,022] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:47:06,918] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:47:14,991] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:47:17,833] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:47:34,046] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 17:50:26,823] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:50:26,966] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:50:27,037] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:51:56,439] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:51:56,625] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:51:56,730] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:53:20,626] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:55:26,002] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:55:26,128] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:55:26,202] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:59:55,372] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:59:55,507] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 17:59:55,587] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:00:05,958] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:01:26,914] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:01:27,114] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:01:27,188] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:01:34,583] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:02:24,905] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:02:25,067] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:02:25,146] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:02:31,677] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:02:52,323] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:02:52,363] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-29 18:02:52,403] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-29 18:02:54,718] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:03:01,454] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:03:01,484] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-29 18:03:01,517] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9472, idUsuario=1}}
+[2017-08-29 18:04:27,441] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:04:27,654] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:04:27,787] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 18:04:37,664] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 18:04:53,048] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-29 18:04:53,049] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 29 10:51:05 BRT 2017]; root of context hierarchy
+[2017-08-29 18:04:53,074] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-29 18:04:53,081] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-29 18:04:53,085] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-29 18:04:53,100] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-29 18:04:53,100] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-29 18:04:53,101] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-29 18:04:53,102] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-29 18:04:53,102] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-29 18:04:53,110] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-29 18:04:53,113] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-29 18:04:53,113] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-29 18:04:53,114] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-29 18:04:53,114] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-29 18:04:53,115] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-29 18:04:53,115] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-29 18:04:53,116] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-29 18:04:53,161] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 7 hours 13 minutes
+[2017-08-29 18:04:53,163] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.080 seconds
+[2017-08-29 18:04:53,166] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-29 21:19:30,349] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 6092 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-29 21:19:30,359] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-29 21:19:30,598] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 29 21:19:30 BRT 2017]; root of context hierarchy
+[2017-08-29 21:19:32,843] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a268308d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-29 21:19:32,943] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$c491f6ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-29 21:19:33,801] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-29 21:19:33,824] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-29 21:19:33,907] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-29 21:19:33,913] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-29 21:19:33,932] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-29 21:19:33,934] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3339 ms
+[2017-08-29 21:19:35,101] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-29 21:19:35,110] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-29 21:19:35,118] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-29 21:19:35,123] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-29 21:19:35,127] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-29 21:19:35,131] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-29 21:19:38,533] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 29 21:19:30 BRT 2017]; root of context hierarchy
+[2017-08-29 21:19:38,756] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-29 21:19:38,865] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-29 21:19:39,176] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-29 21:19:39,178] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-29 21:19:39,596] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-29 21:19:39,841] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-29 21:19:41,250] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-29 21:19:41,395] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-29 21:19:41,402] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-29 21:19:41,410] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-29 21:19:41,423] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-29 21:19:41,586] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-29 21:19:41,999] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-29 21:19:42,354] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-29 21:19:42,358] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-29 21:19:42,364] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-29 21:19:42,369] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-29 21:19:42,372] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-29 21:19:42,375] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-29 21:19:42,379] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-29 21:19:42,387] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-29 21:19:42,390] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-29 21:19:42,393] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-29 21:19:42,396] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-29 21:19:42,399] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-29 21:19:42,406] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-29 21:19:42,412] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 1.000 seconds
+[2017-08-29 21:19:42,494] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-29 21:19:42,503] [INFO ] br.com.api.zonaazul.Application          : Started Application in 13.005 seconds (JVM running for 15.239)
+[2017-08-29 21:23:36,854] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-29 21:23:36,986] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:23:37,003] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-29 21:23:37,756] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:23:37,851] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:24:28,112] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:26:51,881] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:26:51,973] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:26:52,022] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:09,939] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:10,091] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:10,181] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:54,682] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:54,906] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:28:54,955] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:32:09,763] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:32:09,875] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:32:09,939] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:09,232] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:09,416] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:09,464] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:51,657] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:51,793] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:36:51,854] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:51:59,405] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:51:59,925] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:52:00,137] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:56:08,691] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:56:09,018] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:56:09,231] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:59:45,101] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:59:45,329] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 21:59:45,492] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:01:51,867] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:04:23,180] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:04:23,428] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:04:23,596] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:06:50,309] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:06:50,537] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:06:50,698] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:07:33,914] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:07:34,186] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:07:34,382] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:08:32,095] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:08:32,324] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:08:32,496] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:10:51,681] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:12:20,616] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:12:20,921] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:12:21,149] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:13:46,585] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:13:46,801] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:13:46,969] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:15:17,957] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:15:18,234] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:15:18,410] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:15:21,882] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:15:35,072] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:18:18,320] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:18:31,207] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:18:31,303] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-29 22:18:31,403] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-29 22:19:28,617] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:19:28,853] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:19:29,041] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:19:35,927] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:23:38,562] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:23:38,826] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:23:38,962] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:23:43,079] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:23:58,639] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:31:45,468] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:31:45,697] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:31:45,861] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:32:17,298] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:33:44,007] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:33:44,265] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:33:44,379] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:34:19,543] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:35:28,391] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:35:28,618] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:35:28,866] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:35:45,662] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:37:22,675] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:37:22,866] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:37:23,001] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:38:15,034] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:38:15,295] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:38:15,478] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:39:38,625] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:39:38,824] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:39:38,957] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:46:38,271] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:46:38,466] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:46:38,613] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:46:42,974] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:49:46,623] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:49:46,827] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:49:46,989] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:50:00,786] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:51:18,574] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:51:18,769] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:51:18,926] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:52:22,823] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:52:23,009] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:52:23,145] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:52:33,917] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 22:53:25,691] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:53:25,894] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:53:26,035] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-29 22:53:36,723] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-29 23:01:14,143] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-29 23:01:45,961] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-29 23:01:45,964] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Tue Aug 29 21:19:30 BRT 2017]; root of context hierarchy
+[2017-08-29 23:01:46,001] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-29 23:01:46,020] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-29 23:01:46,022] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-29 23:01:46,038] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-29 23:01:46,039] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-29 23:01:46,039] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-29 23:01:46,039] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-29 23:01:46,040] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-29 23:01:46,040] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-29 23:01:46,040] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-29 23:01:46,040] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-29 23:01:46,041] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-29 23:01:46,041] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-29 23:01:46,042] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-29 23:01:46,042] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-29 23:01:46,044] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-29 23:01:46,105] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 1 hour 42 minutes
+[2017-08-29 23:01:46,106] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.085 seconds
+[2017-08-29 23:01:46,119] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-30 09:06:47,091] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 9780 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-30 09:06:47,133] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-30 09:06:47,226] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Wed Aug 30 09:06:47 BRT 2017]; root of context hierarchy
+[2017-08-30 09:06:49,295] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0573400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-30 09:06:49,353] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f280fa1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-30 09:06:49,833] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-30 09:06:49,852] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-30 09:06:49,904] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-30 09:06:49,905] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-30 09:06:49,924] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-30 09:06:49,925] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2702 ms
+[2017-08-30 09:06:51,095] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-30 09:06:51,099] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-30 09:06:51,107] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-30 09:06:51,108] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-30 09:06:51,110] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-30 09:06:51,110] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-30 09:06:53,682] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Wed Aug 30 09:06:47 BRT 2017]; root of context hierarchy
+[2017-08-30 09:06:53,839] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-30 09:06:53,844] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-30 09:06:53,916] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-30 09:06:53,917] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-30 09:06:54,010] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-30 09:06:54,163] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-30 09:06:56,901] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-30 09:06:57,463] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-30 09:06:57,464] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-30 09:06:57,464] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-30 09:06:57,513] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-30 09:06:57,663] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-30 09:06:59,159] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-30 09:07:00,086] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-30 09:07:00,088] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-30 09:07:00,091] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-30 09:07:00,093] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-30 09:07:00,095] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-30 09:07:00,098] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-30 09:07:00,101] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-30 09:07:00,105] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-30 09:07:00,108] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-30 09:07:00,115] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-30 09:07:00,116] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-30 09:07:00,117] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-30 09:07:00,118] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-30 09:07:00,119] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 2.654 seconds
+[2017-08-30 09:07:00,262] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-30 09:07:00,273] [INFO ] br.com.api.zonaazul.Application          : Started Application in 13.796 seconds (JVM running for 14.831)
+[2017-08-30 09:07:50,589] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-30 09:07:50,707] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:07:50,733] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-30 09:07:51,494] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:07:51,638] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:08:39,464] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:08:39,661] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:08:39,738] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:11:29,408] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:11:29,560] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:11:29,626] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:13:56,543] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:13:56,657] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:13:56,758] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:17:40,635] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:17:40,829] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:17:40,932] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:18:04,099] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-30 09:18:33,941] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:18:34,027] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:18:34,086] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:20:31,408] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:20:31,473] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:20:31,516] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:21:32,614] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:21:32,756] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:21:32,887] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:21:41,661] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-30 09:26:01,242] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:26:01,388] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:26:01,488] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:26:53,973] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:26:54,112] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:26:54,234] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:27:48,676] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:27:48,791] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:27:48,864] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:27:57,800] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-30 09:31:56,797] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:31:56,963] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:31:57,028] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:32:45,423] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:32:45,560] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:32:45,704] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:33:28,692] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:33:28,825] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:33:28,944] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:34:25,718] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:34:25,832] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:34:25,891] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:38:06,403] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:38:06,537] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:38:06,607] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:41:02,044] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:41:02,153] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 09:41:02,217] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-30 13:46:02,009] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-30 13:46:02,015] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Wed Aug 30 09:06:47 BRT 2017]; root of context hierarchy
+[2017-08-30 13:46:02,046] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-30 13:46:02,062] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-30 13:46:02,065] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-30 13:46:02,084] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-30 13:46:02,084] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-30 13:46:02,085] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-30 13:46:02,085] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-30 13:46:02,085] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-30 13:46:02,086] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-30 13:46:02,087] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-30 13:46:02,087] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-30 13:46:02,088] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-30 13:46:02,088] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-30 13:46:02,088] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-30 13:46:02,088] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-30 13:46:02,089] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-30 13:46:02,146] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 4 hours 39 minutes
+[2017-08-30 13:46:02,147] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.085 seconds
+[2017-08-30 13:46:02,154] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-31 09:12:23,485] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 10044 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-31 09:12:23,490] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-31 09:12:23,585] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:12:23 BRT 2017]; root of context hierarchy
+[2017-08-31 09:12:25,095] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0573400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 09:12:25,142] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f280fa1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 09:12:25,536] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-31 09:12:25,556] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-31 09:12:25,628] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-31 09:12:25,629] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-31 09:12:25,649] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-31 09:12:25,652] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2071 ms
+[2017-08-31 09:12:25,920] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-31 09:12:25,923] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-31 09:12:25,928] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-31 09:12:25,930] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-31 09:12:25,930] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-31 09:12:25,930] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-31 09:12:27,611] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:12:23 BRT 2017]; root of context hierarchy
+[2017-08-31 09:12:27,703] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-31 09:12:27,706] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-31 09:12:27,748] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:12:27,750] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:12:27,814] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:12:27,968] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-31 09:12:28,854] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-31 09:12:28,916] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-31 09:12:28,920] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-31 09:12:28,923] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-31 09:12:28,925] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-31 09:12:29,076] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-31 09:12:29,325] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-31 09:12:29,500] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-31 09:12:29,502] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 09:12:29,503] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-31 09:12:29,506] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 09:12:29,509] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 09:12:29,511] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 09:12:29,514] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-31 09:12:29,516] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-31 09:12:29,518] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 09:12:29,521] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 09:12:29,522] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-31 09:12:29,522] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 09:12:29,522] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-31 09:12:29,523] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.602 seconds
+[2017-08-31 09:12:29,564] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-31 09:12:29,573] [INFO ] br.com.api.zonaazul.Application          : Started Application in 6.535 seconds (JVM running for 7.353)
+[2017-08-31 09:19:33,907] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-31 09:19:33,907] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:12:23 BRT 2017]; root of context hierarchy
+[2017-08-31 09:19:33,910] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-31 09:19:33,920] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-31 09:19:33,921] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-31 09:19:33,928] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 09:19:33,928] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-31 09:19:33,929] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 09:19:33,929] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 09:19:33,929] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-31 09:19:33,929] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-31 09:19:33,930] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 09:19:33,930] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 09:19:33,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 09:19:33,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-31 09:19:33,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 09:19:33,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-31 09:19:33,932] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-31 09:19:33,964] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 7 minutes
+[2017-08-31 09:19:33,965] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.044 seconds
+[2017-08-31 09:26:35,293] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 16528 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-31 09:26:35,302] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-31 09:26:35,409] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:26:35 BRT 2017]; root of context hierarchy
+[2017-08-31 09:26:36,905] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0573400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 09:26:36,951] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f280fa1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 09:26:37,263] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-31 09:26:37,280] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-31 09:26:37,323] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-31 09:26:37,324] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-31 09:26:37,350] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-31 09:26:37,363] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 1965 ms
+[2017-08-31 09:26:37,570] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-31 09:26:37,574] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-31 09:26:37,579] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-31 09:26:37,581] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-31 09:26:37,585] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-31 09:26:37,587] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-31 09:26:38,832] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:26:35 BRT 2017]; root of context hierarchy
+[2017-08-31 09:26:38,900] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-31 09:26:38,909] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-31 09:26:38,944] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:26:38,944] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:26:39,042] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 09:26:39,140] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-31 09:26:39,824] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-31 09:26:39,915] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-31 09:26:39,916] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-31 09:26:39,922] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-31 09:26:39,924] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-31 09:26:40,039] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-31 09:26:40,280] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-31 09:26:40,437] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-31 09:26:40,439] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 09:26:40,440] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-31 09:26:40,442] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 09:26:40,444] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 09:26:40,451] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 09:26:40,454] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-31 09:26:40,456] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-31 09:26:40,458] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 09:26:40,462] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 09:26:40,464] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-31 09:26:40,465] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 09:26:40,467] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-31 09:26:40,470] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.551 seconds
+[2017-08-31 09:26:40,507] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-31 09:26:40,515] [INFO ] br.com.api.zonaazul.Application          : Started Application in 5.657 seconds (JVM running for 6.487)
+[2017-08-31 10:10:42,722] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-31 10:10:42,962] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:10:42,985] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-31 10:10:43,884] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:10:44,019] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:16:46,519] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:16:54,852] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:16:54,992] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:16:55,071] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:17:02,104] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 10:17:02,179] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 10:17:02,236] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX, idUsuario=1}}
+[2017-08-31 10:17:14,267] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 10:17:14,296] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 10:17:14,358] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX, idUsuario=1}}
+[2017-08-31 10:18:12,026] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:19:04,488] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:19:04,648] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:19:04,748] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:19:06,495] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 10:19:13,163] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 10:48:53,310] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:48:53,445] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 10:48:53,516] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:18:39,780] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:18:39,919] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:18:39,997] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:18:49,339] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:19:50,227] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:21:44,933] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:21:48,495] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:23:22,929] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:23:43,416] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:23:52,290] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:25:31,996] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:25:32,167] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:25:32,256] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:26:08,601] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:26:08,774] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:26:08,879] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:26:16,933] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:36:53,208] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:38:12,772] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:38:12,898] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:38:19,851] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:38:47,811] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:40:48,679] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:40:48,768] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:40:55,528] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 11:44:03,887] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:47:16,192] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:51:08,836] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:52:56,776] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:54:48,633] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 11:57:03,415] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:02:46,370] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:03:33,542] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:04:27,996] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:04:30,796] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:04:34,921] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:06:17,455] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:08:50,104] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:09:16,996] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:11:52,782] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:13:01,240] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:18:52,926] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:19:55,392] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:21:21,282] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:22:43,727] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:24:58,878] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:28:52,038] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:40:53,280] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:44:00,263] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:44:07,508] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:45:10,821] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:47:32,479] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:49:39,886] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:50:44,379] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 12:56:07,564] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 13:02:50,558] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 13:04:35,234] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:05:44,331] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:05:44,718] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:05:44,887] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:07:36,531] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:07:36,854] [INFO ] route8                                   : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:07:37,095] [INFO ] route12                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, id=1, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:14:24,357] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:17:18,225] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:24:43,009] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:24:44,898] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:31:05,956] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:31:07,923] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:31:24,891] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:35:30,792] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:35:43,222] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:36:38,893] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:36:49,850] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:42:32,356] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:42:41,157] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:42:43,940] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:43:02,889] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 14:46:04,196] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:46:07,042] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 14:46:13,138] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=teste, email=teste}}
+[2017-08-31 14:46:22,187] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=teste, email=teste}}
+[2017-08-31 14:46:36,672] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:03:01,508] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:03:04,920] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:03:15,609] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:04:09,020] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:04:11,521] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:04:20,913] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=asdf, email=asfd}}
+[2017-08-31 15:04:35,439] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:06:12,632] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:06:20,264] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:06:28,071] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:07:12,973] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:07:16,420] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:07:20,929] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=teste, email=teste}}
+[2017-08-31 15:07:24,433] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:07:31,637] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:07:35,733] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:08:19,980] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:08:46,427] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:17:31,419] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:17:36,409] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:18:04,472] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:22:47,234] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:22:56,519] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:27:47,071] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:29:05,150] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:30:51,294] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:30:53,845] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:30:56,116] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:31:08,746] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 15:42:43,634] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:42:46,612] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:42:49,484] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:42:51,226] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:42:53,821] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:43:47,871] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:43:49,880] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:47:52,027] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:56:29,338] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:56:32,499] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:56:39,579] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:56:42,360] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:56:43,984] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:40,923] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:44,279] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:46,437] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:47,307] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:48,177] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 15:57:52,976] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 15:57:54,663] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 16:06:32,633] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 16:06:38,336] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 16:06:40,871] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 16:06:46,010] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=a, email=s}}
+[2017-08-31 16:06:48,995] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 16:07:02,624] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 16:07:06,258] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 16:07:08,873] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 16:07:10,408] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 16:07:16,153] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 17:20:18,499] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 17:20:22,088] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 17:20:25,255] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=teste, email=teste}}
+[2017-08-31 17:29:32,084] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 17:29:43,357] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 18:01:30,329] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-31 18:01:30,331] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 09:26:35 BRT 2017]; root of context hierarchy
+[2017-08-31 18:01:30,351] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-31 18:01:30,358] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-31 18:01:30,361] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-31 18:01:30,373] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 18:01:30,373] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-31 18:01:30,373] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 18:01:30,374] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 18:01:30,374] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-31 18:01:30,374] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-31 18:01:30,374] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 18:01:30,374] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 18:01:30,375] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 18:01:30,375] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-31 18:01:30,375] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 18:01:30,375] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-31 18:01:30,376] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-31 18:01:30,405] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 8 hours 34 minutes
+[2017-08-31 18:01:30,405] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.046 seconds
+[2017-08-31 18:01:30,413] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-31 19:28:02,048] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 18680 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-31 19:28:02,059] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-31 19:28:02,147] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 19:28:02 BRT 2017]; root of context hierarchy
+[2017-08-31 19:28:03,712] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a268308d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 19:28:03,788] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$c491f6ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 19:28:04,199] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-31 19:28:04,221] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-31 19:28:04,277] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-31 19:28:04,280] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-31 19:28:04,301] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-31 19:28:04,302] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2159 ms
+[2017-08-31 19:28:04,464] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-31 19:28:04,467] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-31 19:28:04,472] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-31 19:28:04,475] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-31 19:28:04,476] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-31 19:28:04,477] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-31 19:28:05,838] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 19:28:02 BRT 2017]; root of context hierarchy
+[2017-08-31 19:28:05,919] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-31 19:28:05,922] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-31 19:28:05,960] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 19:28:05,961] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 19:28:06,024] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 19:28:06,132] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-31 19:28:06,812] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-31 19:28:06,892] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-31 19:28:06,893] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-31 19:28:06,894] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-31 19:28:06,899] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-31 19:28:06,999] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-31 19:28:07,291] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-31 19:28:07,505] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-31 19:28:07,509] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 19:28:07,511] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-31 19:28:07,513] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 19:28:07,515] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 19:28:07,518] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 19:28:07,521] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-31 19:28:07,525] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-31 19:28:07,527] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 19:28:07,528] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 19:28:07,529] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-31 19:28:07,530] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 19:28:07,530] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-31 19:28:07,531] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.637 seconds
+[2017-08-31 19:28:07,575] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-31 19:28:07,581] [INFO ] br.com.api.zonaazul.Application          : Started Application in 6.158 seconds (JVM running for 7.125)
+[2017-08-31 19:29:17,848] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-31 19:29:18,076] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 19:29:18,111] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-31 19:29:21,745] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 19:29:23,926] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 19:30:49,604] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 19:34:00,184] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 19:34:18,744] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=asdf, email=asdf}}
+[2017-08-31 19:34:25,081] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=asdf, email=asdf}}
+[2017-08-31 19:40:04,358] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 19:42:02,377] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 19:44:20,889] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 19:44:39,563] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 19:44:39,620] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 19:44:39,679] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 19:44:55,618] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 19:48:47,384] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 19:48:56,309] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 19:48:56,363] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 19:48:56,421] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 20:19:59,325] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:21:16,123] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:35,585] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:41,713] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:42,961] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:43,931] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:44,803] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:25:48,085] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=asdf, email=asf}}
+[2017-08-31 20:28:11,993] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:28:13,117] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:28:51,440] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:29:03,184] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 20:30:35,233] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:32:40,128] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:34:00,529] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:34:01,822] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:34:02,775] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:39:08,136] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:39:13,600] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:40:39,150] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:40:47,306] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:44:51,897] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:45:04,411] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:46:18,086] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:46:29,614] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:47:37,150] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:50:55,757] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:51:02,315] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:51:08,692] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:59:26,172] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:59:35,309] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 20:59:44,152] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:00:33,437] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:01:29,528] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:01:35,798] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:01:38,413] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:04:35,914] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:04:50,846] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:04:54,874] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:06:10,465] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 21:06:14,130] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:06:16,708] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:08:25,233] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 21:08:27,993] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:08:54,578] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:08:54,667] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:09:56,611] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{}}
+[2017-08-31 21:10:05,585] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:10:05,688] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:10:16,022] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:10:24,912] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:10:24,953] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 21:10:24,991] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 21:12:50,764] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:12:53,398] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:13:58,414] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:17:10,791] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:18:25,725] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:18:37,615] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:19:34,448] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=}}
+[2017-08-31 21:20:53,745] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=, email=sil}}
+[2017-08-31 21:21:02,473] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:21:11,460] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:21:20,498] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:28:37,878] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-08-31 21:28:37,879] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 19:28:02 BRT 2017]; root of context hierarchy
+[2017-08-31 21:28:37,904] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-08-31 21:28:37,912] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-08-31 21:28:37,914] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-08-31 21:28:37,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 21:28:37,931] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-08-31 21:28:37,932] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 21:28:37,933] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 21:28:37,933] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-08-31 21:28:37,933] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-08-31 21:28:37,934] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 21:28:37,934] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 21:28:37,934] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 21:28:37,935] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-08-31 21:28:37,935] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 21:28:37,935] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-08-31 21:28:37,936] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-08-31 21:28:37,974] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 2 hours
+[2017-08-31 21:28:37,974] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.063 seconds
+[2017-08-31 21:28:37,977] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-08-31 21:29:10,697] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 13408 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-08-31 21:29:10,702] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-08-31 21:29:10,821] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 21:29:10 BRT 2017]; root of context hierarchy
+[2017-08-31 21:29:12,928] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a268308d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 21:29:13,042] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$c491f6ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-08-31 21:29:13,716] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-08-31 21:29:13,742] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-08-31 21:29:13,871] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-08-31 21:29:13,871] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-08-31 21:29:13,891] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-08-31 21:29:13,892] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3074 ms
+[2017-08-31 21:29:14,207] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-08-31 21:29:14,211] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-08-31 21:29:14,217] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-08-31 21:29:14,219] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-08-31 21:29:14,221] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-08-31 21:29:14,222] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-08-31 21:29:17,224] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 21:29:10 BRT 2017]; root of context hierarchy
+[2017-08-31 21:29:17,449] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-08-31 21:29:17,451] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-08-31 21:29:17,531] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 21:29:17,531] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 21:29:17,677] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-08-31 21:29:18,188] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-08-31 21:29:21,391] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-08-31 21:29:21,530] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-08-31 21:29:21,531] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-08-31 21:29:21,532] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-08-31 21:29:21,537] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-08-31 21:29:21,771] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-08-31 21:29:23,463] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-08-31 21:29:25,000] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-08-31 21:29:25,003] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-08-31 21:29:25,005] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-08-31 21:29:25,011] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-08-31 21:29:25,013] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-08-31 21:29:25,016] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-08-31 21:29:25,018] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-08-31 21:29:25,021] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-08-31 21:29:26,423] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-08-31 21:29:26,424] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-08-31 21:29:26,425] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-08-31 21:29:26,426] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-08-31 21:29:26,426] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-08-31 21:29:26,427] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 4.894 seconds
+[2017-08-31 21:29:26,481] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-08-31 21:29:26,487] [INFO ] br.com.api.zonaazul.Application          : Started Application in 16.306 seconds (JVM running for 17.082)
+[2017-08-31 21:33:11,784] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-08-31 21:33:11,889] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:33:11,915] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-08-31 21:33:36,016] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:33:49,307] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:41:05,012] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:43:24,489] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:43:46,013] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:43:54,755] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 21:48:09,823] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 21:49:44,826] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 22:33:49,986] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 22:34:03,296] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:34:06,550] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:34:24,614] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:34:28,314] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:35:53,876] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 22:36:04,125] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:36:17,224] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:36:24,127] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 22:36:47,083] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:36:59,376] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:36:59,422] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:36:59,467] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:04,467] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:04,497] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:04,550] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:10,747] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:10,775] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:10,807] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:14,314] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:14,346] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:14,380] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:25,005] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:25,064] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:25,101] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:28,136] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:28,164] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:28,192] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:31,291] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:31,331] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:31,363] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:33,460] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:33,489] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:33,526] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 22:37:41,143] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 22:37:41,170] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 22:37:41,195] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 23:07:41,337] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=Silvio.ciciti@gmail.cim}}
+[2017-08-31 23:08:23,136] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.br}}
+[2017-08-31 23:08:48,545] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-08-31 23:09:51,438] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 23:09:51,464] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-08-31 23:09:51,504] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-08-31 23:10:04,440] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 23:10:15,273] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-08-31 23:11:06,307] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-01 07:11:28,715] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-09-01 07:11:28,716] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Thu Aug 31 21:29:10 BRT 2017]; root of context hierarchy
+[2017-09-01 07:11:28,726] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-09-01 07:11:28,731] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-09-01 07:11:28,734] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-09-01 07:11:28,742] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-01 07:11:28,742] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-09-01 07:11:28,743] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-01 07:11:28,744] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-01 07:11:28,744] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-09-01 07:11:28,744] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-09-01 07:11:28,745] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-01 07:11:28,745] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-09-01 07:11:28,746] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-01 07:11:28,746] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-09-01 07:11:28,746] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-01 07:11:28,746] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-09-01 07:11:28,747] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-09-01 07:11:28,770] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 9 hours 42 minutes
+[2017-09-01 07:11:28,772] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.039 seconds
+[2017-09-01 07:11:28,779] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-09-01 10:34:48,644] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 22220 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-09-01 10:34:48,649] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-09-01 10:34:48,728] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:34:48 BRT 2017]; root of context hierarchy
+[2017-09-01 10:34:50,431] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0573400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-01 10:34:50,479] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$f280fa1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-01 10:34:50,838] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-09-01 10:34:50,857] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-09-01 10:34:50,915] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-09-01 10:34:50,916] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-09-01 10:34:50,933] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-09-01 10:34:50,934] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2211 ms
+[2017-09-01 10:34:51,079] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-09-01 10:34:51,081] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-09-01 10:34:51,086] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-09-01 10:34:51,087] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-09-01 10:34:51,090] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-09-01 10:34:51,092] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-09-01 10:34:52,327] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:34:48 BRT 2017]; root of context hierarchy
+[2017-09-01 10:34:52,399] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-09-01 10:34:52,406] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-09-01 10:34:52,439] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:34:52,441] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:34:52,483] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:34:52,573] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-09-01 10:34:53,279] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-09-01 10:34:53,357] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-09-01 10:34:53,362] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-09-01 10:34:53,367] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-09-01 10:34:53,373] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-09-01 10:34:53,475] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-09-01 10:34:53,687] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-09-01 10:34:53,847] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-09-01 10:34:53,850] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-01 10:34:53,851] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-09-01 10:34:53,855] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-01 10:34:53,856] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-09-01 10:34:53,859] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-01 10:34:53,861] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-09-01 10:34:53,863] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-09-01 10:34:53,867] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-01 10:34:53,869] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-01 10:34:53,870] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-09-01 10:34:53,871] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-01 10:34:53,871] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-09-01 10:34:53,872] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.507 seconds
+[2017-09-01 10:34:53,913] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-09-01 10:34:53,921] [INFO ] br.com.api.zonaazul.Application          : Started Application in 5.901 seconds (JVM running for 6.667)
+[2017-09-01 10:39:56,963] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-09-01 10:39:57,104] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-09-01 10:39:57,129] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-09-01 10:47:41,524] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-09-01 10:47:51,562] [INFO ] route11                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-01 10:47:51,637] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-01 10:47:51,709] [INFO ] route10                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-01 10:47:51,766] [INFO ] route9                                   : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-09-01 10:48:26,893] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-09-01 10:48:26,894] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:34:48 BRT 2017]; root of context hierarchy
+[2017-09-01 10:48:26,896] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-09-01 10:48:26,901] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-09-01 10:48:26,904] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-09-01 10:48:26,922] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-01 10:48:26,924] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-09-01 10:48:26,927] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-01 10:48:26,932] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-01 10:48:26,934] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-09-01 10:48:26,935] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-09-01 10:48:26,937] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-01 10:48:26,938] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-09-01 10:48:26,939] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-01 10:48:26,940] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-09-01 10:48:26,943] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-01 10:48:26,953] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-09-01 10:48:26,958] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-09-01 10:48:26,990] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 13 minutes
+[2017-09-01 10:48:26,991] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.089 seconds
+[2017-09-01 10:48:26,995] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-09-01 10:58:30,485] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 6788 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-09-01 10:58:30,491] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-09-01 10:58:30,607] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:58:30 BRT 2017]; root of context hierarchy
+[2017-09-01 10:58:33,813] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a149d3bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-01 10:58:33,875] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$c37399dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-01 10:58:34,622] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-09-01 10:58:34,673] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-09-01 10:58:34,731] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-09-01 10:58:34,732] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-09-01 10:58:34,764] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-09-01 10:58:34,765] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4161 ms
+[2017-09-01 10:58:35,036] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-09-01 10:58:35,044] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-09-01 10:58:35,047] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-09-01 10:58:35,050] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-09-01 10:58:35,052] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-09-01 10:58:35,053] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-09-01 10:58:36,675] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:58:30 BRT 2017]; root of context hierarchy
+[2017-09-01 10:58:36,793] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-09-01 10:58:36,795] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-09-01 10:58:36,851] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:58:36,857] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:58:36,964] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-01 10:58:37,082] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-09-01 10:58:39,110] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-09-01 10:58:39,227] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-09-01 10:58:39,228] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-09-01 10:58:39,230] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-09-01 10:58:39,232] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-09-01 10:58:39,512] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-09-01 10:58:40,027] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-09-01 10:58:40,295] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: direct://pesquisarUsuario
+[2017-09-01 10:58:40,298] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-01 10:58:40,299] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: direct://saldoCompra
+[2017-09-01 10:58:40,300] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-01 10:58:40,302] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-09-01 10:58:40,304] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-01 10:58:40,306] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: direct://vagaLivre
+[2017-09-01 10:58:40,311] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://vaga
+[2017-09-01 10:58:40,314] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-01 10:58:40,316] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-01 10:58:40,318] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoVenda
+[2017-09-01 10:58:40,319] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-01 10:58:40,319] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 12 routes, of which 12 are started.
+[2017-09-01 10:58:40,322] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 1.091 seconds
+[2017-09-01 10:58:40,413] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-09-01 10:58:40,420] [INFO ] br.com.api.zonaazul.Application          : Started Application in 11.385 seconds (JVM running for 13.132)
+[2017-09-01 11:05:21,161] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-09-01 11:05:21,349] [INFO ] route7                                   : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-09-01 11:05:21,367] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-09-01 11:06:33,358] [INFO ] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+[2017-09-01 11:06:33,359] [INFO ] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Fri Sep 01 10:58:30 BRT 2017]; root of context hierarchy
+[2017-09-01 11:06:33,363] [INFO ] xport.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+[2017-09-01 11:06:33,381] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutting down
+[2017-09-01 11:06:33,383] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Starting to graceful shutdown 12 routes (timeout 300 seconds)
+[2017-09-01 11:06:33,392] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route6 shutdown complete, was consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-01 11:06:33,393] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route12 shutdown complete, was consuming from: direct://saldoVenda
+[2017-09-01 11:06:33,393] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route5 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-01 11:06:33,394] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route4 shutdown complete, was consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-01 11:06:33,394] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route11 shutdown complete, was consuming from: direct://vaga
+[2017-09-01 11:06:33,394] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route10 shutdown complete, was consuming from: direct://vagaLivre
+[2017-09-01 11:06:33,394] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route3 shutdown complete, was consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-01 11:06:33,395] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route9 shutdown complete, was consuming from: direct://pesquisarPlacaUsuario
+[2017-09-01 11:06:33,395] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route2 shutdown complete, was consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-01 11:06:33,395] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route8 shutdown complete, was consuming from: direct://saldoCompra
+[2017-09-01 11:06:33,395] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route1 shutdown complete, was consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-01 11:06:33,396] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Route: route7 shutdown complete, was consuming from: direct://pesquisarUsuario
+[2017-09-01 11:06:33,396] [INFO ] pache.camel.impl.DefaultShutdownStrategy : Graceful shutdown of 12 routes completed in 0 seconds
+[2017-09-01 11:06:33,438] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 7 minutes
+[2017-09-01 11:06:33,438] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.057 seconds
+[2017-09-01 11:06:33,440] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
