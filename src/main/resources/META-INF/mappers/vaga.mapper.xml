@@ -43,9 +43,9 @@
 		<result property="id" column="ID_VAGA" jdbcType="NUMERIC" />
 		<result property="noZona" column="NO_ZONA"  jdbcType="VARCHAR" />
 		<result property="noVaga" column="NO_VAGA"  jdbcType="VARCHAR" />
-		<result property="nrLongitude" column="NR_LONGITUDE"  jdbcType="NUMERIC" />
-		<result property="nrLatitude" column="NR_LATITUDE"  jdbcType="NUMERIC" />
-	
+		<result property="nrLongitude" column="NR_LONGITUDE"  jdbcType="VARCHAR" />	
+		<result property="nrLatitude" column="NR_LATITUDE"  jdbcType="VARCHAR" />
+		
 	</resultMap>
 	
 </mapper>

@@ -1,3 +1,12 @@
+select * from solicita;
+
+select * from credito c where c.id_credito = (select max(c1.id_credito) from credito c1 );
+
+insert into credito values (2,'2,75',sysdate);
+
+insert into vaga values (1,'C','253','-46,666049293668905','-23,645897126950295');
+insert into vaga values (2,'I','254','-46,633309399999995','-23,550519899999998');
+insert into vaga values (3,'B','255','-46,633309399999995','-23,550519899999998');
 
 
 SELECT V.*

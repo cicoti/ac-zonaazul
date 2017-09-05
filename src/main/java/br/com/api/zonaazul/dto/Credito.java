@@ -1,6 +1,7 @@
 package br.com.api.zonaazul.dto;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -14,15 +15,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties ( ignoreUnknown = true )
-public class Vaga implements Serializable { 
+public class Credito implements Serializable { 
 
-	private static final long serialVersionUID = -8824245654840232923L;
+	private static final long serialVersionUID = -3904771609468818161L;
 	
 	private Long id;
-	private String noZona;
-	private String noVaga;
-	private String nrLongitude;
-	private String nrLatitude;
-
+	private Double vlCredito;
+	private Date dtCriacao;
 		
 }

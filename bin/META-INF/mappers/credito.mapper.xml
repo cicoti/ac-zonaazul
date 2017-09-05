@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<select id="selectCredito" resultMap="creditoResultMap" fetchSize="100">
+	
+	<![CDATA[
+		
+	SELECT 
+	C.* 
+	FROM 
+	CREDITO C 
+	WHERE 
+	C.ID_CREDITO = (
+		SELECT 
+			MAX(C1.ID_CREDITO) 
+		FROM 
+			CREDITO C1 
+			)
+	    
+	]]>
+	
+	</select>
+		
+	<!-- Mapeamento Credito.java to Table Credito -->
+	<resultMap type="br.com.api.zonaazul.dto.Credito" id="creditoResultMap">
+	
+		<result property="id" column="ID_CREDITO" jdbcType="NUMERIC" />
+		<result property="vlCredito" column="VL_CREDITO" jdbcType="NUMERIC" />
+		<result property="dtCriacao" column="DT_CRIACAO" jdbcType="TIME" />
+		
+	</resultMap>
+	
+</mapper>
+
