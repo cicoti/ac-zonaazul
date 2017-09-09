@@ -52,7 +52,8 @@ public class MybatisConfiguration {
 								new ClassPathResource("/META-INF/mappers/venda.mapper.xml"),
 								new ClassPathResource("/META-INF/mappers/vaga.mapper.xml"),
 								new ClassPathResource("/META-INF/mappers/placa.mapper.xml"),
-								new ClassPathResource("/META-INF/mappers/credito.mapper.xml")
+								new ClassPathResource("/META-INF/mappers/credito.mapper.xml"),
+								new ClassPathResource("/META-INF/mappers/solicita.mapper.xml")
 		} ;
 		factory.setMapperLocations(locations);
 		return factory;

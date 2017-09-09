@@ -15,14 +15,19 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties ( ignoreUnknown = true )
-public class Compra implements Serializable { 
+public class Solicita implements Serializable { 
 
 	private static final long serialVersionUID = 6547887710164561219L;
 
 	private Long id;
-	private Credito credito;
 	private Usuario usuario;
-	private Long qtCredito;
-	private Date data;
-
+	private Venda venda;
+	private Vaga vaga;
+	private Placa placa;
+	private String inicio;
+	private String fim;
+	private int blExtensao;
+	private int blNegado;
+	private String dsMotivo;
+	
 }

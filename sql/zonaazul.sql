@@ -1,4 +1,151 @@
-select * from solicita;
+
+--DECLARE BEGIN  
+--INSERT INTO VENDA V (V.ID_VENDA,V.ID_CREDITO,V.ID_USUARIO,V.QT_CREDITO,V.DT_VENDA) VALUES (VENDA_SEQ.nextval,1,1,1,SYSDATE);
+--INSERT INTO VENDA V (V.ID_VENDA,V.ID_CREDITO,V.ID_USUARIO,V.QT_CREDITO,V.DT_VENDA) VALUES (VENDA_SEQ.nextval,1,1,1,SYSDATE);
+--COMMIT;
+--END;
+SELECT VENDA_SEQ.CURRVAL FROM DUAL;
+
+SELECT * FROM VENDA;
+
+SELECT * FROM SOLICITA;
+
+DELETE FROM SOLICITA;
+
+DELETE FROM VENDA;
+
+INSERT INTO VENDA V (V.ID_VENDA,V.ID_CREDITO,V.ID_USUARIO,V.QT_CREDITO,V.DT_VENDA) VALUES (VENDA_SEQ.NEXTVAL, 1, 1, 1,SYSDATE);
+
+INSERT 	INTO 
+				SOLICITA S
+				(
+					S.ID_SOLICITA, 
+					S.ID_USUARIO, 
+					S.ID_VENDA, 
+					S.ID_VAGA, 
+					S.ID_PLACA, 
+					S.DT_INICIO_PERIODO, 
+					S.DT_FIM_PERIODO, 
+					S.BL_EXTENSAO, 
+					S.BL_NEGADO,
+					S.DS_MOTIVO
+				) VALUES (
+					SOLICITA_SEQ.NEXTVAL, 
+					1, 
+					VENDA_SEQ.CURRVAL, 
+					1, 
+					1, 
+					SYSDATE,  
+					SYSDATE+1/24, 
+					1,
+					1, 
+					' ' 
+				);
+
+
+
+
+
+
+INSERT ALL 	
+INTO VENDA V (
+			V.ID_VENDA,
+			V.ID_CREDITO,
+			V.ID_USUARIO,
+			V.QT_CREDITO,
+			V.DT_VENDA
+		)
+		VALUES
+		(
+			VENDA_SEQ.nextval,
+			1,
+			1,
+			1,
+			SYSDATE
+		)
+INTO SOLICITA S (
+			S.ID_SOLICITA, 
+			S.ID_USUARIO, 
+			S.ID_VENDA, 
+			S.ID_VAGA, 
+			S.ID_PLACA, 
+			S.DT_INICIO_PERIODO, 
+			S.DT_FIM_PERIODO, 
+			S.BL_EXTENSAO, 
+			S.BL_NEGADO,
+			S.DS_MOTIVO
+		) VALUES (
+			solicita_seq.NEXTVAL, 
+			1o, 
+			venda_seq.currval, 
+			1, 
+			1, 
+			SYSDATE,  
+			SYSDATE+1/24, 
+			0,
+			0, 
+			'teste' 
+		)
+SELECT  *   FROM DUAL;
+        
+  
+  
+  
+select * from venda;  
+
+delete from solicita;
+delete from venda;
+
+
+insert into 
+venda v
+(
+v.id_venda,
+v.id_credito,
+v.id_usuario,
+v.qt_credito,
+v.dt_venda)
+values
+(
+venda_seq.nextval,
+1,
+1,
+1,
+sysdate
+);
+
+select venda_seq.currval from dual;
+
+       
+INSERT INTO 
+SOLICITA S
+(
+S.ID_SOLICITA, 
+S.ID_USUARIO, 
+S.ID_VENDA, 
+S.ID_VAGA, 
+S.ID_PLACA, 
+S.DT_INICIO_PERIODO, 
+S.DT_FIM_PERIODO, 
+S.BL_EXTENSAO, 
+S.BL_NEGADO,
+S.DS_MOTIVO
+) VALUES (
+solicita_seq.NEXTVAL,
+'1', --USUARIO
+'1', --VENDA
+'1', --VAGA
+'1', --PLACA
+TO_DATE(SYSDATE, 'DD/MM/YYYY HH24:MI:SS'), --INICIO 
+TO_DATE(SYSDATE+1/24, 'DD/MM/YYYY HH24:MI:SS'), --FIM
+'0', --EXTENSAO
+'0', --NEGADO
+null -- MOTIVO
+);
+                
+                
+                select * from venda;
+
 
 select * from credito c where c.id_credito = (select max(c1.id_credito) from credito c1 );
 

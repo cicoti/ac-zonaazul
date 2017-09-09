@@ -20,8 +20,8 @@ public class Venda implements Serializable {
 	private static final long serialVersionUID = 6547887710164561219L;
 
 	private Long id;
-	private Long idCredito;
-	private Long idUsuario;
+	private Credito credito;
+	private Usuario usuario;
 	private Long qtCredito;
 	private Date data;
 

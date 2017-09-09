@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 import br.com.api.zonaazul.dto.Compra;
 import br.com.api.zonaazul.dto.RespostaErro;
-import br.com.api.zonaazul.dto.Usuario;
 
 @Component
 public class CompraRouterBuilder extends RouteBuilder  { 
@@ -29,10 +28,10 @@ public class CompraRouterBuilder extends RouteBuilder  {
         
         from("direct:saldoCompra")
         
-          .log("Pesquisar saldo de compra do usuario." + body())
-          
+          	.log("Pesquisar saldo de compra do usuario." + body())
 	        .doTry()
 	        .to("zonaAzulDB:selectSaldoCompraPorUsuario?StatementType=SelectOne")
+	        .log("Resultado pesquisa saldo de compra do usuario." + body())
 	        .process(exchange -> {
 	        	Compra compra  = null;
 	        	try{
@@ -41,7 +40,6 @@ public class CompraRouterBuilder extends RouteBuilder  {
 	        		exchange.getIn().setBody(compra);
 	      	        		        		
 	        	}catch (Exception e) {
-	 		        
 	        		 RespostaErro respostaErro = new RespostaErro("CompraRouterBuilder:saldoCompra"
 								, "EN-COM-001"
 								, "Saldo não está disponivel."

@@ -28,10 +28,15 @@ public class VendaRouterBuilder extends RouteBuilder  {
 							.outType(Venda.class)
 								.to("direct:saldoVenda");
         
-        from("direct:saldoVenda")
+        rest("/zonaazul").consumes("application/json")
+							.produces("application/json")
+							.post("/v1/venda/efetivar")
+							.outType(String.class)
+								.to("direct:efetivarVenda");
         
+        
+        from("direct:saldoVenda")
           .log("Pesquisar saldo de venda do usuario." + body())
-          
 	        .doTry()
 	        .to("zonaAzulDB:selectSaldoVendaPorUsuario?StatementType=SelectOne")
 	        .process(exchange -> {
@@ -67,6 +72,33 @@ public class VendaRouterBuilder extends RouteBuilder  {
               })
 		    .end()
         .end();
+        
+        
+        
+        from("direct:efetivarVenda")
+        
+        .log("Gravar na base venda de credito." + body())
+        
+	        .doTry()
+	        .to("zonaAzulDB:insertVenda?StatementType=Insert")
+	        .process(exchange -> {
+	        		exchange.getIn().setBody("{}");
+		      })
+	        .doCatch(Exception.class)
+	            .process(exchange -> {
+	            Throwable throwable = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Throwable.class);
+              RespostaErro respostaErro = new RespostaErro("VendaRouterBuilder:efetivarVenda"
+														, "ER-VEN-002"
+														, "Erro ao efetivar a venda."
+														, throwable.getMessage());
+              exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 500);
+              exchange.getOut().setHeader(Exchange.CONTENT_TYPE, "application/json");
+              exchange.getOut().setBody(respostaErro.toJson());
+            })
+		    .end()
+		    
+      .end();
+	
 	}
 }
 

@@ -9,7 +9,7 @@
 	<![CDATA[
 	
 	SELECT
-    	SUM(v.qt_credito) as QT_CREDITO
+    	NVL(SUM(v.qt_credito),0) as QT_CREDITO
 	FROM
     	venda v,
     	credito cr
@@ -21,6 +21,32 @@
 	]]>
 	
 	</select>
+	
+	<insert id="insertVenda">
+	
+	<![CDATA[
+	
+			INSERT INTO 
+				VENDA V
+				(
+					V.ID_VENDA,
+					V.ID_CREDITO,
+					V.ID_USUARIO,
+					V.QT_CREDITO,
+					V.DT_VENDA
+				)
+				VALUES
+				(
+					VENDA_SEQ.NEXTVAL,
+					#{credito.id},
+					#{usuario.id},
+					1,
+					SYSDATE
+				)
+		   
+	]]>
+	
+	</insert>	
 	
 	<!-- Mapeamento Usuario.java to Table Compra -->
 	<resultMap type="br.com.api.zonaazul.dto.Venda" id="saldoVendaPorUsuarioResultMap">

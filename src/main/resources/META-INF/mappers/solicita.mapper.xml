@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="br.com.api.zonaazul">
+
+	<insert id="insertSolicita">
+	
+	<![CDATA[
+					
+			
+			INSERT 	INTO 
+				SOLICITA S
+				(
+					S.ID_SOLICITA, 
+					S.ID_USUARIO, 
+					S.ID_VENDA, 
+					S.ID_VAGA, 
+					S.ID_PLACA, 
+					S.DT_INICIO_PERIODO, 
+					S.DT_FIM_PERIODO, 
+					S.BL_EXTENSAO, 
+					S.BL_NEGADO,
+					S.DS_MOTIVO
+				) VALUES (
+					SOLICITA_SEQ.NEXTVAL, 
+					#{usuario.id}, 
+					VENDA_SEQ.CURRVAL, 
+					#{vaga.id}, 
+					#{placa.id}, 
+					to_date(#{inicio},'dd/MM/yyyy HH24:Mi:ss'), 
+					to_date(#{fim},'dd/MM/yyyy HH24:Mi:ss'),  
+					#{blExtensao},
+					#{blNegado}, 
+					#{dsMotivo} 
+				)
+						
+		
+	   
+	]]>
+	
+	</insert>
+		
+</mapper>
+
