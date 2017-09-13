@@ -16,7 +16,7 @@
 	WHERE
         v.id_credito = cr.id_credito
     AND
-        v.id_usuario = #{id}
+        v.id_usuario = #{idUsuario}
 	    
 	]]>
 	
@@ -38,8 +38,8 @@
 				VALUES
 				(
 					VENDA_SEQ.NEXTVAL,
-					#{credito.id},
-					#{usuario.id},
+					#{credito.idCredito},
+					#{usuario.idUsuario},
 					1,
 					SYSDATE
 				)

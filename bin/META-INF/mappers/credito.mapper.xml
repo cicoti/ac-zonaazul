@@ -27,9 +27,9 @@
 	<!-- Mapeamento Credito.java to Table Credito -->
 	<resultMap type="br.com.api.zonaazul.dto.Credito" id="creditoResultMap">
 	
-		<result property="id" column="ID_CREDITO" jdbcType="NUMERIC" />
+		<id property="idCredito" column="ID_CREDITO" jdbcType="NUMERIC" />
 		<result property="vlCredito" column="VL_CREDITO" jdbcType="NUMERIC" />
-		<result property="dtCriacao" column="DT_CRIACAO" jdbcType="TIME" />
+		<result property="dtCriacaoCredito" column="DT_CRIACAO" jdbcType="TIME" />
 		
 	</resultMap>
 	

@@ -19,8 +19,8 @@ public class Credito implements Serializable {
 
 	private static final long serialVersionUID = -3904771609468818161L;
 	
-	private Long id;
+	private Long idCredito;
 	private Double vlCredito;
-	private Date dtCriacao;
+	private Date dtCriacaoCredito;
 		
 }

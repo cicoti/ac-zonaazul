@@ -9,14 +9,14 @@
 	<![CDATA[
 	
 	SELECT
-    	NVL(SUM(c.qt_credito),0) as QT_CREDITO
+    	NVL(SUM(C.QT_CREDITO),0) AS QT_CREDITO
 	FROM
-    	compra c,
-    	credito cr
+    	COMPRA C,
+    	CREDITO CR
 	WHERE
-        c.id_credito = cr.id_credito
+        C.ID_CREDITO = CR.ID_CREDITO
     AND
-        c.id_usuario = #{id}
+        C.ID_USUARIO = #{idUsuario}
 	    
 	]]>
 	

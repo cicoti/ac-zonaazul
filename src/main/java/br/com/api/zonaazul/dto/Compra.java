@@ -19,10 +19,10 @@ public class Compra implements Serializable {
 
 	private static final long serialVersionUID = 6547887710164561219L;
 
-	private Long id;
+	private Long idCompra;
 	private Credito credito;
 	private Usuario usuario;
 	private Long qtCredito;
-	private Date data;
+	private Date dtCompra;
 
 }

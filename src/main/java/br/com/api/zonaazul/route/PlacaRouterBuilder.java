@@ -27,6 +27,7 @@ public class PlacaRouterBuilder extends RouteBuilder  {
 							.outType(Placa.class)
 								.to("direct:pesquisarPlacaUsuario");
         
+        
         from("direct:pesquisarPlacaUsuario")
         
           .log("Verifica se a placa está vinculada ao usuario." + body())
@@ -66,8 +67,8 @@ public class PlacaRouterBuilder extends RouteBuilder  {
               })
 		    .end()
         .end();
-         
-	}
+   
+}
 		
 }
 

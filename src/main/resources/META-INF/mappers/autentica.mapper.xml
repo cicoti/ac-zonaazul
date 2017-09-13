@@ -9,16 +9,16 @@
 	<![CDATA[
 	
 	SELECT
-    	u.id_usuario,
-    	u.email,
-    	u.senha,
-    	u.tipo
+    	U.ID_USUARIO,
+    	U.EMAIL,
+    	U.SENHA,
+    	U.TIPO
 	FROM
-    usuario u
+    USUARIO U
 	WHERE 
-		UPPER(u.email) = UPPER(#{email}) 
+		UPPER(U.EMAIL) = UPPER(#{email}) 
 	AND 
-		UPPER(u.senha) = UPPER(#{senha})	 
+		UPPER(U.SENHA) = UPPER(#{senha})	 
 	    
 	]]>
 	
@@ -26,7 +26,7 @@
 	
 	<!-- Mapeamento Usuario.java to Table Usuario -->
 	<resultMap type="br.com.api.zonaazul.dto.Usuario" id="usuarioResultMap">
-		<id property="id" column="ID_USUARIO" jdbcType="NUMERIC" />
+		<id property="idUsuario" column="ID_USUARIO" jdbcType="NUMERIC" />
 		<result property="email" column="EMAIL" jdbcType="VARCHAR" />
 		<result property="senha" column="SENHA" jdbcType="VARCHAR" />
 		<result property="tipo" column="TIPO" jdbcType="VARCHAR" />

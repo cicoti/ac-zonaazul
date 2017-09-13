@@ -24,10 +24,10 @@
 	<!-- Mapeamento Placa.java to Table Placa -->
 	<resultMap type="br.com.api.zonaazul.dto.Placa" id="placaResultMap">
 	
-		<result property="id" column="ID_PLACA" jdbcType="NUMERIC" />
-		<result property="idUsuario" column="ID_USUARIO"  jdbcType="NUMERIC" />
+		<id property="idPlaca" column="ID_PLACA" jdbcType="NUMERIC" />
 		<result property="nrPlaca" column="NR_PLACA"  jdbcType="VARCHAR" />
-		<result property="dtCadastro" column="DT_CADASTRO"  jdbcType="TIME" />
+		<result property="idUsuario" column="ID_USUARIO"  jdbcType="NUMERIC" />
+		<result property="dtCadastroPlaca" column="DT_CADASTRO"  jdbcType="TIME" />
 		
 	</resultMap>
 	

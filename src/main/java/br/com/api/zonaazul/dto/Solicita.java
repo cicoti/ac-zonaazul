@@ -1,7 +1,6 @@
 package br.com.api.zonaazul.dto;
 
 import java.io.Serializable;
-import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -19,13 +18,13 @@ public class Solicita implements Serializable {
 
 	private static final long serialVersionUID = 6547887710164561219L;
 
-	private Long id;
+	private Long idSolicita;
 	private Usuario usuario;
 	private Venda venda;
 	private Vaga vaga;
 	private Placa placa;
-	private String inicio;
-	private String fim;
+	private String dtInicio;
+	private String dtFim;
 	private int blExtensao;
 	private int blNegado;
 	private String dsMotivo;

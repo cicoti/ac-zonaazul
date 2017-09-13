@@ -18,7 +18,7 @@ public class Vaga implements Serializable {
 
 	private static final long serialVersionUID = -8824245654840232923L;
 	
-	private Long id;
+	private Long idVaga;
 	private String noZona;
 	private String noVaga;
 	private String nrLongitude;

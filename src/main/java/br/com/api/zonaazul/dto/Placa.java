@@ -19,9 +19,9 @@ public class Placa implements Serializable {
 
 	private static final long serialVersionUID = 8012266416055769671L;
 	
-	private Long id;
+	private Long idPlaca;
 	private Long idUsuario;
 	private String nrPlaca;
-	private Date dtCadastro;
+	private Date dtCadastroPlaca;
 		
 }

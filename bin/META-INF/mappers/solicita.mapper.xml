@@ -24,12 +24,12 @@
 					S.DS_MOTIVO
 				) VALUES (
 					SOLICITA_SEQ.NEXTVAL, 
-					#{usuario.id}, 
+					#{usuario.idUsuario}, 
 					VENDA_SEQ.CURRVAL, 
-					#{vaga.id}, 
-					#{placa.id}, 
-					to_date(#{inicio},'dd/MM/yyyy HH24:Mi:ss'), 
-					to_date(#{fim},'dd/MM/yyyy HH24:Mi:ss'),  
+					#{vaga.idVaga}, 
+					#{placa.idPlaca}, 
+					to_date(#{dtInicio},'dd/MM/yyyy HH24:Mi:ss'), 
+					to_date(#{dtFim},'dd/MM/yyyy HH24:Mi:ss'),  
 					#{blExtensao},
 					#{blNegado}, 
 					#{dsMotivo} 
@@ -40,6 +40,56 @@
 	]]>
 	
 	</insert>
+	
+	
+	<select id="selectSolicita" resultMap="solicitaResultMap" fetchSize="100">
+	
+	<![CDATA[
+	
+	SELECT 
+		S.*,
+		P.*,
+		V.*
+	FROM 
+		SOLICITA S, 
+		PLACA P, 
+		VAGA V
+	WHERE 
+		S.ID_PLACA = P.ID_PLACA 
+	AND 
+		S.ID_VAGA = V.ID_VAGA
+		    
+	]]>
+	
+	</select>
+	
+	
+	
+	<!-- Mapeamento Solicita.java to Table SOLICITA -->
+	<resultMap type="br.com.api.zonaazul.dto.Solicita" id="solicitaResultMap">
+		<id property="idSolicita" column="ID_SOLICITA" jdbcType="NUMERIC" />
+		<result property="dtInicio" column="DT_INICIO_PERIODO" jdbcType="TIME" /> 
+		<result property="dtFim" column="DT_FIM_PERIODO" jdbcType="TIME" />
+		<result property="blExtensao" column="BL_EXTENSAO" jdbcType="NUMERIC" />
+		<result property="blNegado" column="BL_NEGADO" jdbcType="NUMERIC" />
+		<result property="dsMotivo" column="DS_MOTIVO" jdbcType="VARCHAR" />
+		<collection property="placa" ofType="br.com.api.zonaazul.dto.Placa">
+			<id property="idPlaca" column="ID_PLACA" jdbcType="NUMERIC" />
+			<result property="nrPlaca" column="NR_PLACA"  jdbcType="VARCHAR" />
+			<result property="idUsuario" column="ID_USUARIO"  jdbcType="NUMERIC" />
+			<result property="dtCadastro" column="DT_CADASTRO"  jdbcType="TIME" />
+		</collection>
+		<collection property="vaga" ofType="br.com.api.zonaazul.dto.Vaga">
+			<id property="idVaga" column="ID_VAGA" jdbcType="NUMERIC" />
+			<result property="noZona" column="NO_ZONA"  jdbcType="VARCHAR" />
+			<result property="noVaga" column="NO_VAGA"  jdbcType="VARCHAR" />
+			<result property="nrLongitude" column="NR_LONGITUDE"  jdbcType="VARCHAR" />	
+			<result property="nrLatitude" column="NR_LATITUDE"  jdbcType="VARCHAR" />
+		</collection>
+	</resultMap>
+	
+	
+
 		
 </mapper>
 
