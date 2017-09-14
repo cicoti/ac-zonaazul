@@ -1,3 +1,29 @@
+select * from placa;
+select * from vaga;
+select s.* from solicita s, placa p, vaga v
+where s.id_placa = p.id_placa 
+and s.id_vaga = v.id_vaga;
+
+SELECT 
+	S.ID_SOLICITA,
+	S.DT_INICIO_PERIODO,
+	S.DT_FIM_PERIODO,
+	S.BL_EXTENSAO,
+	S.BL_NEGADO,
+	S.DS_MOTIVO,
+	P.ID_PLACA,
+	P.NR_PLACA,
+	P.ID_USUARIO,
+	P.DT_CADASTRO
+	FROM 
+		SOLICITA S, 
+		PLACA P, 
+		VAGA V
+	WHERE 
+		S.ID_PLACA = P.ID_PLACA 
+	AND 
+		S.ID_VAGA = V.ID_VAGA
+
 
 select to_date('08/09/2017 21:00:00','dd/MM/yyyy HH24:Mi:ss') from dual;
 

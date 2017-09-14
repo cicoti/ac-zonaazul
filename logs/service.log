@@ -20861,3 +20861,119 @@ Caused by: java.lang.IllegalArgumentException: Result Maps collection already co
 [2017-09-13 14:14:45,066] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) uptime 3 minutes
 [2017-09-13 14:14:45,067] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is shutdown in 0.046 seconds
 [2017-09-13 14:14:45,068] [INFO ] ponent.servlet.CamelHttpTransportServlet : Destroyed CamelHttpTransportServlet[CamelServlet]
+[2017-09-13 20:52:30,231] [INFO ] br.com.api.zonaazul.Application          : Starting Application on DESKTOP-ES86K9P with PID 17192 (C:\Users\SCicoti\git\ac-zonaazul\bin started by SCicoti in C:\Users\SCicoti\git\ac-zonaazul)
+[2017-09-13 20:52:30,266] [INFO ] br.com.api.zonaazul.Application          : No active profile set, falling back to default profiles: default
+[2017-09-13 20:52:30,443] [INFO ] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Wed Sep 13 20:52:30 BRT 2017]; root of context hierarchy
+[2017-09-13 20:52:32,620] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edf9dc78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-13 20:52:32,708] [INFO ] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$1023a297] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2017-09-13 20:52:33,558] [INFO ] org.xnio                                 : XNIO version 3.3.6.Final
+[2017-09-13 20:52:33,579] [INFO ] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+[2017-09-13 20:52:33,644] [WARN ] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+[2017-09-13 20:52:33,646] [WARN ] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2017-09-13 20:52:33,664] [INFO ] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+[2017-09-13 20:52:33,665] [INFO ] pringframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3225 ms
+[2017-09-13 20:52:33,877] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'CamelServlet' to [/*]
+[2017-09-13 20:52:33,880] [INFO ] boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+[2017-09-13 20:52:33,883] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2017-09-13 20:52:33,885] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2017-09-13 20:52:33,887] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2017-09-13 20:52:33,888] [INFO ] .boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[2017-09-13 20:52:35,706] [INFO ] .annotation.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72e5a8e: startup date [Wed Sep 13 20:52:30 BRT 2017]; root of context hierarchy
+[2017-09-13 20:52:35,818] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2017-09-13 20:52:35,822] [INFO ] .annotation.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2017-09-13 20:52:35,916] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-13 20:52:35,917] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-13 20:52:35,981] [INFO ] .servlet.handler.SimpleUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2017-09-13 20:52:36,116] [INFO ] amel.impl.converter.DefaultTypeConverter : Loaded 196 type converters
+[2017-09-13 20:52:37,000] [INFO ] xport.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+[2017-09-13 20:52:37,099] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML routes from: classpath:camel/*.xml
+[2017-09-13 20:52:37,114] [INFO ] apache.camel.spring.boot.RoutesCollector : Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[2017-09-13 20:52:37,117] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) is starting
+[2017-09-13 20:52:37,119] [INFO ] mel.management.ManagedManagementStrategy : JMX is enabled
+[2017-09-13 20:52:37,241] [INFO ] amel.impl.DefaultRuntimeEndpointRegistry : Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[2017-09-13 20:52:37,606] [INFO ] g.apache.camel.spring.SpringCamelContext : StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[2017-09-13 20:52:37,981] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route11 started and consuming from: direct://pesquisarUsuario
+[2017-09-13 20:52:37,987] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route1 started and consuming from: servlet:/zonaazul/v1/autentica?httpMethodRestrict=POST
+[2017-09-13 20:52:37,989] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route12 started and consuming from: direct://saldoCompra
+[2017-09-13 20:52:37,991] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route2 started and consuming from: servlet:/zonaazul/v1/compra/saldo?httpMethodRestrict=POST
+[2017-09-13 20:52:37,993] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route13 started and consuming from: direct://buscarCredito
+[2017-09-13 20:52:38,000] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route3 started and consuming from: servlet:/zonaazul/v1/buscarCredito?httpMethodRestrict=POST
+[2017-09-13 20:52:38,003] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route14 started and consuming from: direct://pesquisarPlacaUsuario
+[2017-09-13 20:52:38,006] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route4 started and consuming from: servlet:/zonaazul/v1/placa/usuario?httpMethodRestrict=POST
+[2017-09-13 20:52:38,007] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route15 started and consuming from: direct://efetivarSolicitacao
+[2017-09-13 20:52:38,008] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route16 started and consuming from: direct://solicita
+[2017-09-13 20:52:38,009] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route5 started and consuming from: servlet:/zonaazul/v1/solicita/efetivar?httpMethodRestrict=POST
+[2017-09-13 20:52:38,010] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route6 started and consuming from: servlet:/zonaazul/v1/solicita?httpMethodRestrict=POST
+[2017-09-13 20:52:38,011] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route17 started and consuming from: direct://vagaLivre
+[2017-09-13 20:52:38,034] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route18 started and consuming from: direct://vaga
+[2017-09-13 20:52:38,035] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route7 started and consuming from: servlet:/zonaazul/v1/vaga/livre?httpMethodRestrict=POST
+[2017-09-13 20:52:38,037] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route8 started and consuming from: servlet:/zonaazul/v1/vaga?httpMethodRestrict=POST
+[2017-09-13 20:52:38,039] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route19 started and consuming from: direct://saldoVenda
+[2017-09-13 20:52:38,048] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route20 started and consuming from: direct://efetivarVenda
+[2017-09-13 20:52:38,050] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route9 started and consuming from: servlet:/zonaazul/v1/venda/saldo?httpMethodRestrict=POST
+[2017-09-13 20:52:38,051] [INFO ] g.apache.camel.spring.SpringCamelContext : Route: route10 started and consuming from: servlet:/zonaazul/v1/venda/efetivar?httpMethodRestrict=POST
+[2017-09-13 20:52:38,052] [INFO ] g.apache.camel.spring.SpringCamelContext : Total 20 routes, of which 20 are started.
+[2017-09-13 20:52:38,054] [INFO ] g.apache.camel.spring.SpringCamelContext : Apache Camel 2.18.1 (CamelContext: ac-candidato) started in 0.936 seconds
+[2017-09-13 20:52:38,117] [INFO ] ndertow.UndertowEmbeddedServletContainer : Undertow started on port(s) 9080 (http)
+[2017-09-13 20:52:38,131] [INFO ] br.com.api.zonaazul.Application          : Started Application in 8.636 seconds (JVM running for 9.663)
+[2017-09-13 20:57:27,273] [INFO ] ponent.servlet.CamelHttpTransportServlet : Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+[2017-09-13 20:57:27,405] [INFO ] route11                                  : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:27,433] [WARN ] g.apache.tomcat.jdbc.pool.ConnectionPool : maxIdle is larger than maxActive, setting maxIdle to: 1
+[2017-09-13 20:57:28,143] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:28,148] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:57:28,254] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:33,086] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:33,094] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:57:33,139] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:33,181] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 20:57:33,226] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 20:57:33,270] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 20:57:33,326] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:33,328] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:57:33,370] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:40,204] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:40,206] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:57:40,241] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:40,281] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 20:57:40,312] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 20:57:40,354] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 20:57:40,422] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 20:57:40,487] [INFO ] route14                                  : Verifica se a placa está vinculada ao usuario.simple{{nrPlaca=FNX-9474, idUsuario=1}}
+[2017-09-13 20:57:40,576] [INFO ] route13                                  : Pesquisar ultima posição de credito.simple{{}}
+[2017-09-13 20:57:40,639] [INFO ] route20                                  : Gravar na base venda de credito.simple{{credito={vlCredito=2.75, dtCriacaoCredito=Tue May 31 00:00:00 BRT 8783, idCredito=2}, usuario={senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}}
+[2017-09-13 20:57:40,728] [INFO ] route15                                  : Gravar na base solicitacao de vaga.simple{{vaga={nrLongitude=-46,666049293668905, noZona=C, idVaga=1, nrLatitude=-23,645897126950295, noVaga=253}, dsMotivo=, usuario={senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}, blNegado=0, dtFim=13/09/2017 21:57:40, dtInicio=13/09/2017 20:57:40, placa={nrPlaca=FNX-9474, dtCadastroPlaca=Sun May 31 00:00:00 BRT 8933, idPlaca=1, idUsuario=1}, blExtensao=0}}
+[2017-09-13 20:57:40,804] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:40,806] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:57:40,857] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:57:40,893] [INFO ] route13                                  : Pesquisar ultima posição de credito.simple{{}}
+[2017-09-13 20:58:20,611] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 20:58:20,617] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 20:58:20,681] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:25,645] [INFO ] route11                                  : Pesquisar usuario para autenticar.simple{{senha=lunaduna, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:25,797] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:25,801] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:25,869] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:30,771] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:30,775] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:30,857] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:31,062] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 21:00:31,166] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 21:00:31,247] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:31,249] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:31,323] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:37,039] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:37,044] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:37,111] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:37,167] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 21:00:37,244] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 21:00:37,297] [INFO ] route17                                  : Pesquisa vagas livres nesse momento.simple{{}}
+[2017-09-13 21:00:37,369] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:37,371] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:37,455] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:42,101] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:42,105] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:42,163] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:42,215] [INFO ] route18                                  : Pesquisa todas vagas cadastradas e ativas.simple{{}}
+[2017-09-13 21:00:42,265] [INFO ] route12                                  : Pesquisar saldo de compra do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
+[2017-09-13 21:00:42,267] [INFO ] route12                                  : Resultado pesquisa saldo de compra do usuario.simple{Compra(idCompra=null, credito=null, usuario=null, qtCredito=12, dtCompra=null)}
+[2017-09-13 21:00:42,304] [INFO ] route19                                  : Pesquisar saldo de venda do usuario.simple{{senha=lunaduna, tipo=admin, idUsuario=1, email=silvio.cicoti@gmail.com}}
