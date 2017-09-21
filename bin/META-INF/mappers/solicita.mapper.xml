@@ -77,7 +77,7 @@
 			<id property="idPlaca" column="ID_PLACA" jdbcType="NUMERIC" />
 			<result property="nrPlaca" column="NR_PLACA"  jdbcType="VARCHAR" />
 			<result property="idUsuario" column="ID_USUARIO"  jdbcType="NUMERIC" />
-			<result property="dtCadastro" column="DT_CADASTRO"  jdbcType="TIME" />
+			<result property="dtCadastroPlaca" column="DT_CADASTRO"  jdbcType="TIME" />
 		</collection>
 		<collection property="vaga" ofType="br.com.api.zonaazul.dto.Vaga">
 			<id property="idVaga" column="ID_VAGA" jdbcType="NUMERIC" />

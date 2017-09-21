@@ -11,30 +11,30 @@ import br.com.api.zonaazul.dto.Usuario;
 import br.com.api.zonaazul.dto.Venda;
 
 @Component
-public class VendaRouterBuilder extends RouteBuilder  { 
-	
-	
+public class VendaRouterBuilder extends RouteBuilder  {
+
+
 	@Override
 	public void configure() throws Exception {
-	
+
         restConfiguration().component("servlet")
 													 .bindingMode(RestBindingMode.json)
 													 .dataFormatProperty("prettyPrint", "true");
 
-        
+
         rest("/zonaazul").consumes("application/json")
 							.produces("application/json")
 							.post("/v1/venda/saldo")
 							.outType(Venda.class)
 								.to("direct:saldoVenda");
-        
+
         rest("/zonaazul").consumes("application/json")
 							.produces("application/json")
 							.post("/v1/venda/efetivar")
 							.outType(String.class)
 								.to("direct:efetivarVenda");
-        
-        
+
+
         from("direct:saldoVenda")
           .log("Pesquisar saldo de venda do usuario." + body())
 	        .doTry()
@@ -42,23 +42,23 @@ public class VendaRouterBuilder extends RouteBuilder  {
 	        .process(exchange -> {
 	        	Venda venda  = null;
 	        	try{
-	        		
+
 	        		venda = exchange.getIn().getBody(Venda.class);
 	        		exchange.getIn().setBody(venda);
-	      	        		        		
+
 	        	}catch (Exception e) {
-	 		        
+
 	        		 RespostaErro respostaErro = new RespostaErro("VendaRouterBuilder:saldoVenda"
 								, "EN-VEN-001"
-								, "O saldo para venda não está disponivel."
+								, "O Saldo Para Venda N\u00e3o Est\u00e1 Disponivel."
 								, e.getMessage());
 	                 exchange.getOut().setHeader(Exchange.HTTP_RESPONSE_CODE, 400);
 	                 exchange.getOut().setHeader(Exchange.CONTENT_TYPE, "application/json");
 	                 exchange.getOut().setBody(respostaErro.toJson());
-	        		 
+
 				}
-		        
-		      })	        
+
+		      })
 	        .doCatch(Exception.class)
 	            .process(exchange -> {
 	            Throwable throwable = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Throwable.class);
@@ -72,13 +72,13 @@ public class VendaRouterBuilder extends RouteBuilder  {
               })
 		    .end()
         .end();
-        
-        
-        
+
+
+
         from("direct:efetivarVenda")
-        
+
         .log("Gravar na base venda de credito." + body())
-        
+
 	        .doTry()
 	        .to("zonaAzulDB:insertVenda?StatementType=Insert")
 	        .process(exchange -> {
@@ -96,9 +96,9 @@ public class VendaRouterBuilder extends RouteBuilder  {
               exchange.getOut().setBody(respostaErro.toJson());
             })
 		    .end()
-		    
+
       .end();
-	
+
 	}
 }
 
